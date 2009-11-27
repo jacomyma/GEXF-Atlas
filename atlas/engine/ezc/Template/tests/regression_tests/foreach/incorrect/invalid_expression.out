@@ -1,0 +1,4 @@
+mock:1:14: Expecting an operand without a pre- or post operator.
+
+{foreach 3 + as $i}{/foreach}
+             ^

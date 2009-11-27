@@ -1,0 +1,4 @@
+mock:1:15: Expecting an operand without a pre- or post operator.
+
+{var $a = 5 + }
+              ^

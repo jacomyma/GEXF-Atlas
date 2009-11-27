@@ -1,0 +1,7 @@
+mock:4:1: Incorrect nesting in code, close block {/if} expected.
+
+{if true}
+
+hello
+
+^

@@ -1,0 +1,4 @@
+mock:5:1: Expecting an assignment '=' after an array append '[]'.
+
+[2]}
+^

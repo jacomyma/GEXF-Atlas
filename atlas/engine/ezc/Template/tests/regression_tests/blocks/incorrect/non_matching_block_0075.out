@@ -1,0 +1,4 @@
+mock:3:9: Unexpected block {default} at this position. Some blocks can only be used inside other blocks.
+
+{default}
+        ^

@@ -1,0 +1,4 @@
+mock:2:16: Expecting an assignment '=' after an array append '[]'.
+
+{var $b = $a[] + 2}
+               ^

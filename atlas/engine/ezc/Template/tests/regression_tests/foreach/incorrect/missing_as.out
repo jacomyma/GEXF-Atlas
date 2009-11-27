@@ -1,0 +1,4 @@
+mock:1:15: Expecting the keyword 'as'.
+
+{foreach 1..2 $i}{/foreach}
+              ^

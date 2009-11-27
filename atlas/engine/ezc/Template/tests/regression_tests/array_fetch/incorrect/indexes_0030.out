@@ -1,0 +1,4 @@
+mock:3:22: Expecting an assignment '=' after an array append '[]'.
+
+{$a[0][1]/*c*/[]/*c*/[2]}
+                     ^

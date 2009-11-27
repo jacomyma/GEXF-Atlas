@@ -1,0 +1,4 @@
+mock:1:6: Expecting a variable
+
+{var }
+     ^

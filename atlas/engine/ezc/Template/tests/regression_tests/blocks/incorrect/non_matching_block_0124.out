@@ -1,0 +1,4 @@
+mock:4:12: The block {elseif} cannot be a sub-block of {foreach}. {elseif} can only be a child of an {if} block.
+
+    {elseif $foo}
+           ^

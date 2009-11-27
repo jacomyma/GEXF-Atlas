@@ -1,0 +1,5 @@
+mock:2:1: Expecting a closing curly bracket: '}'
+
+{foreach 1..2 as $key => $value 
+{$key}
+^

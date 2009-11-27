@@ -1,0 +1,7 @@
+<?php
+return array( 'id' => 'Channel about',
+              'title' => 'Feed title',
+              'link' => 'Feed link',
+              'description' => 'Feed description',
+            );
+?>

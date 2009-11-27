@@ -1,0 +1,4 @@
+mock:2:8: 'Use' should be declared before other declarations
+
+{use $b}
+       ^

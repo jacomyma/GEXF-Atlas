@@ -1,0 +1,52 @@
+1. {str_replace( "Say yes!", 4, 3, "no")}
+2. {str_remove( "Say yes!", 4, 3 )}
+3. {str_chop( "Say yes!", 5 )}
+4. {str_chop_front( "Say yes!", 4 )}
+5. {str_append( "abc", "def" )}
+6. {str_prepend( "abc", "def" )}
+7. {str_compare( "abcd", "abcd" ) == 0}{str_compare( "abc2", "abc12" ) > 0}
+8. {str_nat_compare( "abc2", "abc12" ) < 0}
+9. {str_contains("je moeder", "moe")}
+10. {str_len("abcdefg")}
+
+11. {str_left("abcdefg", 3)}
+12. {str_starts_with("abcdefg", "abc")}
+13. {str_right("abcdefg", 3)}
+14. {str_ends_with("abcdefg", "efg")}
+15. {str_mid( "abcdefg", 3, 2)}
+16. {str_at( "abcdefg", 1)}
+17. {str_fill( "ab", 3)}
+18. {str_index_of( "abcdefgcdab", "def")} {str_index_of( "abcdefgcdab", "cd", 5 ) }
+18.2. {str_last_index( "abcdefgcdab", "ab")} {str_last_index( "abcdefgcdab", "ab", -5 ) }
+19. {str_is_empty( "" )} {str_is_empty("") !== false}
+20. {str_pad_left( "abc", 5, ".." )}
+
+21. {str_pad_right( "abc", 5, ".." )}
+22. {str_number( 3.14159, 2, ",", "")}
+23. #{str_trim( "  blabla    ")}# #{str_trim( ". bla", ".")}#
+24. #{str_trim_left( "  blabla  ")}#
+25. #{str_trim_right( "  blabla  ")}#
+26. #{str_simplify( "    hello    world
+
+bla     " )}#
+27. {var $a = str_split("hello/world", "/")}{$a[1]} {$a[0]}
+28. {str_join( array("hello", "world"), " ")}
+29. {str_upper( "heLLo World" )}
+30. {str_lower( "HelLO WoRLd" )}
+
+31. {str_capitalize( "hello world" )}
+32. {str_find_replace( "Hello earth!", "earth", "world" )}
+33. {str_reverse( "Hello world" )}
+34. {str_word_count( "Hello world" )}
+35. {str_paragraph_count("This text
+
+contains 
+
+two paragraphs")}
+36. {str_wrap("abcdefghijklmnop", 4, "\n", true)}{str_wrap("qrst asdf asdf", 5, "\n")} 
+37. {str_base64_encode( "I don't want to be encoded!" )}
+38. {str_base64_decode( "SSBkb24ndCB3YW50IHRvIGJlIGVuY29kZWQh" )}
+39. {str_ord( "A" )}
+40. {str_char_count( "hello" )}
+41. {str_index_of( "Hello", "l")}
+42. {str_chr( 65 )}

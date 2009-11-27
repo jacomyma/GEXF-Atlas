@@ -1,0 +1,61 @@
+Date
+====
+
+string _`date_format` ( string *$format*, DateTime *$time* )
+`````````````````````````````````````````````````````````````````````````
+Returns a formatted string that represents the time belonging to the DateTime
+object $time.  
+
+The format is the same as the format from the PHP date_ function:
+
+.. _date: http://php.net/date
+
+The next example::
+
+    {date_format( "H:i:s", $time )}
+    
+Shows something like::
+    
+    08:09:53
+
+Be aware that you have to send $time as a DateTime object, and not as an
+integer timestamp.
+
+
+string _`date_format_timestamp` ( string *$format* [, int *$timestamp*] )
+`````````````````````````````````````````````````````````````````````````
+Returns a formatted string that represents the time. If no *$timestamp* is given then the 
+current time will be returned, otherwise the time of the *$timestamp* will be returned. 
+
+The format is the same as the format from the PHP date_ function:
+
+.. _date: http://php.net/date
+
+The next example::
+
+    {date_format_timestamp( "H:i:s" )}
+    
+Shows something like::
+    
+    22:10:45
+
+
+int _`date_current_timestamp` ()
+````````````````````````````````
+Returns the current timestamp. The timestamp is measured in the number of seconds since the Unix Epoch 
+(January 1 1970 00:00:00 GMT)::
+
+    {date_current_timestamp()}
+
+Outputs something like the next line, but the number is probably higher::
+    
+    1147362767
+
+
+
+..
+   Local Variables:
+   mode: rst
+   fill-column: 79
+   End:
+   vim: et syn=rst tw=0

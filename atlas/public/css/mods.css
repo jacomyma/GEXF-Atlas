@@ -1,0 +1,95 @@
+/* Nice type */
+.fancy{
+	font-family: "Warnock Pro", "Goudy Old Style","Palatino","Book Antiqua", Georgia, serif; 
+	font-style: italic;
+	font-weight: normal;
+}
+
+/* Sky */
+.sky h1#branding {
+	background:none;
+	padding-left:0px;
+}
+.sky{
+	height: 400px;
+	background-image:url(../res/sky-background.png);
+	background-repeat:repeat-x;
+}
+.sky .box{
+	background:none;
+}
+
+.sky a{
+	color:#666;
+}
+
+.sky h1 a{
+	color:#544;
+}
+
+.sky h3 a, .sky h3{
+	color:#666;
+}
+
+/* Kwicks */
+#kwick a p{
+	color:#333;
+	width:200px;
+	margin-left:250px;
+}
+#kwick a:hover p{
+	color:#000;
+}
+
+/* Menu 2 Tabs */
+ul.nav li span {
+	color:#333;
+	background:#fff;
+	font-weight:bold;
+	text-decoration:none;
+	display:block;
+	float:left;
+	padding:0 1em;
+	height:2.4em;
+	line-height:2.5em;
+	border:2px solid #666;
+	border-bottom:none;
+}
+
+/* Submenu Width */
+ul.nav li ul li a{
+	width: 300px;
+}
+
+/* Accordion : hover cursor */
+.toggler{
+	cursor:pointer;
+}
+
+/* Section Block (index.php) */
+.sectionBlock{
+	margin-top:20px;
+	margin-bottom:20px;
+	background-image:url(../res/sky-background.png);
+	background-repeat:none;
+}
+
+.sectionBlockTitle a, .sectionBlockTitle{
+	background-color:#666;
+	color:#EEE;
+	padding-left:5px;
+	padding-bottom:5px;
+}
+
+/* articles */
+.article.full{
+	padding-left: 30px;
+	font-size:1.3em;
+	color:#222;
+	line-height:auto;
+}
+
+div.article.full h3, div.article.full h4, div.article.full h5, div.article.full h6{
+	
+	line-height:0px;
+}

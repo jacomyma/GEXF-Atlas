@@ -1,0 +1,4 @@
+mock:3:11: Expecting a value and not an array.
+
+{var $a = $val1..$val2}
+          ^

@@ -1,0 +1,4 @@
+mock:1:2: The symbol <$a> is not declared
+
+{$a[] = 2}
+ ^

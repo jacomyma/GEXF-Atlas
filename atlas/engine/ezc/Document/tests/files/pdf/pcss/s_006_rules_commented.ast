@@ -1,0 +1,31 @@
+<?php
+
+return array (
+  0 => 
+  ezcDocumentPdfCssDirective::__set_state(array(
+     'address' => 
+    array (
+      0 => 'foo',
+      1 => '> bar',
+    ),
+     'formats' => 
+    array (
+      'font-size' => '9pt',
+    ),
+     'regularExpression' => NULL,
+  )),
+  1 => 
+  ezcDocumentPdfCssDirective::__set_state(array(
+     'address' => 
+    array (
+      0 => 'foo',
+      1 => '#bar',
+    ),
+     'formats' => 
+    array (
+      'margin' => '0em',
+    ),
+     'regularExpression' => NULL,
+  )),
+);
+

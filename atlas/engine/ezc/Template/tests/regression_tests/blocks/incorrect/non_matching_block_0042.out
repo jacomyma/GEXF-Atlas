@@ -1,0 +1,4 @@
+mock:3:8: {elseif} can only be a child of an {if} block.
+
+{elseif $foo}
+       ^

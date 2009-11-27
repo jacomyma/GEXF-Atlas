@@ -1,0 +1,4 @@
+mock:1:2: Boolean type must use lowercase characters only.
+
+{TRue}
+ ^

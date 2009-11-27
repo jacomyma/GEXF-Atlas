@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE tree PUBLIC "" "">
+<tree prefix="ezc" xmlns="http://components.ez.no/Tree" xmlns:etd="http://components.ez.no/Tree/data">
+    <node id="ezc1">
+        <etd:data>Node 1</etd:data>
+        <node id="ezc2">
+            <etd:data>Node 2</etd:data>
+        </node>
+        <node id="ezc3">
+            <etd:data>Node 3</etd:data>
+        </node>
+        <node id="ezc4">
+            <etd:data>Node 4</etd:data>
+            <node id="ezc6">
+                <etd:data>Node 6</etd:data>
+                <node id="ezc7">
+                    <etd:data>Node 7</etd:data>
+                </node>
+                <node id="ezc8">
+                    <etd:data>Node 8</etd:data>
+                </node>
+            </node>
+        </node>
+        <node id="ezc5">
+            <etd:data>Node 5</etd:data>
+            <node id="ezc9"/>
+        </node>
+    </node>
+</tree>

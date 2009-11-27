@@ -1,0 +1,19 @@
+eZ publish Enterprise Component: WorkflowEventLogTiein, Design
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+:Author: Sebastian Bergmann
+:Revision: $Revision: 3667 $
+:Date: $Date: 2006-10-09 21:04:14 +0200 (Mon, 09 Oct 2006) $
+
+Design Description
+==================
+
+The WorkflowEventLogTiein uses the EventLog component to log events
+triggered by the Workflow component.
+
+
+Main Classes
+============
+
+The ezcWorkflowEventLogListener class implements the
+ezcWorkflowExecutionListener interface and uses an instance of the
+ezcLog class to log its events.

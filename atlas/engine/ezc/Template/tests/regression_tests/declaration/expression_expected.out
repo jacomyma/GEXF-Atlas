@@ -1,0 +1,4 @@
+mock:1:11: Expecting an expression.
+
+{var $a = }
+          ^

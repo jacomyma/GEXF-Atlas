@@ -1,0 +1,4 @@
+mock:2:8: The symbol <$a> is already declared.
+
+{use $a}
+       ^

@@ -1,0 +1,4 @@
+mock:1:4: Expecting a variable
+
+{++not_a_variable}
+   ^

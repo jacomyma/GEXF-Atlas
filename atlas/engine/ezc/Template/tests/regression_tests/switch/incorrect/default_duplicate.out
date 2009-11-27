@@ -1,0 +1,4 @@
+mock:4:9: Expecting {/switch}. ('default' can be available only once in the switch)
+
+{default}bla{/default} 
+        ^

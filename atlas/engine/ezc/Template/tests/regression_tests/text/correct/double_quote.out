@@ -1,0 +1,15 @@
+abcdefghijklmnopqrstuvwxyz
+
+newline
+	tab
+\ \\x \\x
+" 
+\
+\" 
+{}
+\n
+$a
+\$a
+\$a
+\\$a
+\\$a

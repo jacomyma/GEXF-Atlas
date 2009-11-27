@@ -1,0 +1,4 @@
+mock:3:8: Expecting an identifier or a variable.
+
+{$obj->@}
+       ^

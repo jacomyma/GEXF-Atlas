@@ -1,0 +1,16 @@
+<?php
+
+return array (
+  0 => 
+  ezcDocumentPdfCssDirective::__set_state(array(
+     'address' => 
+    array (
+      0 => 'foo',
+    ),
+     'formats' => 
+    array (
+    ),
+     'regularExpression' => NULL,
+  )),
+);
+

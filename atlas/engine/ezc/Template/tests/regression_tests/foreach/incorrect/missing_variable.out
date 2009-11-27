@@ -1,0 +1,4 @@
+mock:1:18: Expecting a variable
+
+{foreach 1..2 as }{/foreach}
+                 ^

@@ -1,0 +1,5 @@
+mock:4:1: Expecting a closing curly bracket: '}'
+
+{/while
+
+^

@@ -1,0 +1,4 @@
+mock:2:10: Expecting an operand without a pre- or post operator.
+
+{$a[ 0 + ]}
+         ^

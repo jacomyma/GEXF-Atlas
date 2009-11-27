@@ -1,0 +1,5 @@
+mock:2:1: Expecting the keyword '=>' or closing curly bracket '}'
+
+{foreach 1..2 as $i
+{$i}
+^

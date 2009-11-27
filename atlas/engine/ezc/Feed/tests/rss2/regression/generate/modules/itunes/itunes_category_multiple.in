@@ -1,0 +1,16 @@
+<?php
+return array( 'title' => 'Feed title',
+              'link'  => array( array( 'href' => 'Feed link' ) ),
+              'description' => 'Feed description',
+              'iTunes' => array( array( 'category' => array( array( 'term' => 'iTunes feed category 1',
+                                                                    'category' => array( array( 'term' => 'iTunes feed sub-category 1' ) ) ),
+                                                             array( 'term' => 'iTunes feed category 2' ),
+                                                             array( 'term' => 'iTunes feed category 3',
+                                                                    'category' => array( array( 'term' => 'iTunes feed sub-category 3' ) ) ) ),
+                                      ) ),
+
+			  'item' => array( array( 'title' => 'Item title',
+                                      'link' => 'Item link',
+                                      'description' => 'Item description', ), ),
+            );
+?>

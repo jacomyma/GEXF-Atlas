@@ -1,0 +1,4 @@
+mock:5:28: Expecting a closing curly bracket: '}'
+
+Say: {$myObj->getHelloWorld(2 + 2)}
+                           ^

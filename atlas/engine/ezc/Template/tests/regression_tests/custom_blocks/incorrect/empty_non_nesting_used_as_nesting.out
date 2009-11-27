@@ -1,0 +1,4 @@
+mock:2:24: The custom block: {inline_opt_parameter} should not have a closing block. Check the custom block definition. 
+
+{/inline_opt_parameter}
+                       ^

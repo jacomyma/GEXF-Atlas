@@ -1,0 +1,731 @@
+eZ publish Enterprise Component: Component, Design
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+:Author: Jan Borsodi
+:Revision: $Revision: 4008 $
+:Date: $Date: 2006-11-21 14:48:47 +0100 (Tue, 21 Nov 2006) $
+
+Design description
+==================
+
+Elements
+--------
+
+Elements are the internal types used by the engine to represent the syntax of a
+template file. Elements are dividied into several groups and each is explained
+in detail.
+
+.. figure:: template_elements.png
+
+   All template elements.
+
+Comments
+^^^^^^^^
+
+Comments are text blocks which will be stripped away from the output when the
+template is executed. Comments can be standalone spanning an entire tag or
+placed inline in template code.
+Comments can be used for explaining what or why something is done or to comment
+out code which is no longer to be used.
+
+Code comments
+`````````````
+
+Code comments are created by starting and ending the tag with an asterix
+(\*). Whatever is inside is considered comments for the template code::
+
+  {* Comment text *}
+  {* Comments can
+      also span
+      multiple lines *}
+
+The comment will be read as it is with newlines.
+
+Inline comments
+```````````````
+
+Inline comments are created using \/\* and \*\/ or with \/\/. Use the \/\* to
+span multiple lines \/\* or the \/\/ to start a comment which continues to the
+end of the line::
+
+  {def $a = 1 /*, $b = 2, */, $c = 3 }
+  {def $a = 1 //, $b = 2
+       , $c = 3}
+
+These comments are usually something you use while developing but isn't left in
+after a release is made. If the result after removing the inline comments is an
+empty tag the tag itself will be ignored::
+
+  { /* def $a = 1 */ }
+
+Expressions
+^^^^^^^^^^^
+
+Expressions are not a real element but rather a way of thinking a combination
+of elements. For instance each operator of an operator can be any kind of
+element (including new operators) which in the end forms a composition tree.
+
+.. figure:: template_element_composition.png
+
+   Example composition structure.
+
+Builtins
+^^^^^^^^
+
+The language comes with several builtin expression for types and structures to
+make it easier to use.
+
+Booleans are created with the *true* or *false* names, for instance::
+
+  true
+  false
+  $a = true
+
+Integers and floats are written as in PHP using::
+
+  1
+  1.0
+
+Creating strings is done using single or double quotes, single quotes takes the
+characters literally and doesn't allow escaping while the double quotes allows
+escaping::
+
+  "a simple string"
+  'another simple string'
+  "with the escaped characters \"\n\r\t\\"
+  'no escaping in here \"\n\r\t\\'
+
+Create arrays and hashes with the syntax::
+
+  array( $v1 [, $v2 ...] )
+  array( $k1 => $v1 [, $k2 => $v2 ...] )
+
+Functions
+^^^^^^^^^
+
+.. Todo: Update this text.
+
+A function is a piece of reusable code which can be called with parameters.
+The function will perform some PHP code and return a value based on the
+parameters.  Parameterless functions are also possible.
+
+Functions can either be programmed by implementing the ezcTemplateFunction
+interface or mapping them to PHP functions or expressions.
+
+The template language must supply the required functions for the most common
+operations. The names should not follow the confusing and inconsistent naming
+of PHP functions but provide a clean and easy to understand set (As reference
+some of the names in the Qt library have been used, e.g. methods in QString)
+
+See design_functions.txt for a list of functions which will be part of the
+template language as a standard.
+
+Operators
+^^^^^^^^^
+
+Operators are part of an expression and can modify the value or transform it
+into another value. Examples of operators are adding two numbers together (+)
+or checking for equality (==).  Operators takes one, two or three operands
+(called unary, binary and terniary operators).
+
+The operator precedence is as follows (some are missing):
+
+===============  ====================
+Associativity    Operators
+===============  ====================
+right            [ ->(left)
+non-associative  ++ --
+non-associative  ! - instanceof
+left             \* / %
+left             \+ \- .
+non-associative  < <= > >=
+non-associative  == != === !==
+left             &&
+left             ||
+left             ? :
+right            = += -= \*= /= .= %=
+===============  ====================
+
+.. figure:: template_operators.png
+
+   Some of the operator classes.
+
+Arithmetic operators
+````````````````````
+
+The arithmetic operators can be used on all expression which returns a
+numerical value (integer or float).
+
+==============  ===========
+Negation        -$o
+Addition        $ol + $or
+Subtraction     $ol - $or
+Multiplication  $ol * $or
+Division        $ol / $or
+Modulus         $ol % $or
+==============  ===========
+
+
+Assignment operator
+```````````````````
+
+The assignment operator can be used to assign the value of an expression to a
+variable or an entry in an array.
+
+==========  =========
+Assignment  $ol = $or
+==========  =========
+
+Note: Assignment is only allowed with some functions and blocks
+
+See also `Combined operators`_
+
+Combined operators
+``````````````````
+
+==============  ============
+Addition        $ol += $or
+Subtraction     $ol \-= $or
+Multiplication  $ol \*= $or
+Division        $ol /= $or
+Modulus         $ol %= $or
+Concat          $ol .= $or
+==============  ============
+
+Comparison operators
+````````````````````
+
+=====================  ============
+Equal                  $ol == $or
+Identical              $ol === $or
+Not equal              $ol != $or
+Not identical          $ol !== $or
+Less than              $ol < $or
+Greater than           $ol > $or
+Less than or equal     $ol <= $or
+Greater than or equal  $ol >= $or
+=====================  ============
+
+Increment/decrement operators
+`````````````````````````````
+
+==============  ====
+Pre increment   ++$o
+Pre decrement   --$o
+Post increment  $o++
+Post decrement  $o--
+==============  ====
+
+Logical operators
+`````````````````
+
+===  ==========
+Not  ! $o
+And  $ol && $or
+Or   $ol || $or
+===  ==========
+
+Flow operator
+`````````````
+============  ===================
+If/then/else  $if ? $then : $else
+============  ===================
+
+String operators
+````````````````
+
+=============  =========
+Concatenation  $ol . $or
+Substring      $ol[$or]
+=============  =========
+
+See also `Combined operators`_
+
+
+Array operators
+```````````````
+
+=====================  ============
+Equal                  $ol == $or
+Identical              $ol === $or
+Not equal              $ol != $or
+Not identical          $ol !== $or
+Union                  $ol + $or
+Key value              $ol[$or]
+Append                 $ol[] = $or
+=====================  ============
+
+See also `Combined operators`_
+
+Object operators
+````````````````
+
+=====================  ===========
+Equal                  $ol == $or
+Identical              $ol === $or
+Not equal              $ol != $or
+Not identical          $ol !== $or
+Property lookup        $ol->or
+=====================  ===========
+
+Modifiers
+^^^^^^^^^
+
+Note: This is probably skipped, conflicts with the rest of the syntax
+
+Blocks
+^^^^^^
+
+Blocks are nested structure which performs a given operation on their children.
+For instance it can execute the children and then transform the text result
+into something else.
+
+.. figure:: template_blocks.png
+
+   Some of the block classes.
+
+Curly braces
+````````````
+
+Since the curly braces are used for the invocation of the template syntax they
+cannot be used directly in plain text anymore. To get around this you can
+escape the brace with a backslash (\)::
+
+  function code()
+  \{
+  \}
+
+It is also possible to use the specialized ldelim and rdelim blocks to output
+them::
+
+  function code()
+  {ldelim}
+  {rdelim}
+
+Lastly it can also be placed inside a text string::
+
+  function code()
+  {"{"}
+  {"}"}
+
+Literal text
+````````````
+
+If you want to enter lots of code or text which should not be processed by the
+template language you can place the code inside *literal* blocks. Any text
+within this block is read as it is (even back slashes) until a {/literal} is
+reached::
+
+  {literal}
+  function code()
+  {
+  }
+  {/literal}
+
+Text manipulation
+`````````````````
+ .. Note: These entries are only a suggestion.
+
+- block start/block end
+
+  Captures the output of the child elements and performs wrapping, indentation
+  and end-of-line style on the result. This can be used to generate lots of
+  text with template code and then wrap it into a readable text format::
+
+    {block [wrap column] [indent prefix] [eol suffix]}
+    {/block}
+
+  Parameters:
+
+  - wrap - Which column to wrap at, if not supplied the current context wrap is
+    used.
+  - indent - A text piece to indent each line with (after wrap), this will be
+    appended to any existing indent text.
+  - eol - A text piece to replace the newline character for each line (after
+    wrap).
+
+  Example #1, generating mail reply::
+
+    {block wrap 79 indent "> "}
+    ... render mail reply here:
+    {/block}
+
+  Example #2, wrapping with html hard breaks::
+
+    {block wrap 70 eol "<br/>"}
+    {/block}
+
+- table/tr/th/td
+
+  A set of blocks to easy the generation of plain text tables::
+
+    {table}
+    {tr}
+      {th}Header1{/th}
+      {th}Header2{/th}
+    {/tr}
+    {tr}
+      {td}Element1{/td}
+      {td}Element2{/td}
+    {/tr}
+    {tr}
+      {td}Element3{/td}
+      {td}Element4{/td}
+    {/tr}
+    {/table}
+
+- matrix/md/mh
+
+  Easy generation of plain text matrices::
+
+    {matrix 3 by 3}
+    {mh}X{/mh}
+    {mh}Y{/mh}
+    {mh}Z{/mh}
+    {md}1{/md}
+    {md}2{/md}
+    {md}3{/md}
+    {md}4{/md}
+    {md}5{/md}
+    {md}6{/md}
+    {md}7{/md}
+    {md}8{/md}
+    {md}9{/md}
+    {/matrix}
+
+- cleanup (XML/XHTML only)
+
+  Renders the child blocks and cleans up excess whitespace from the output to
+  reduce whitespace which is only present for being human readable. This is
+  something that is done once a project is finished to reduce bandwidth.
+
+  Cleanup blocks can be turned on or off globally to aid in development of
+  templates::
+
+    {cleanup}
+    <p>
+
+      This contains quite
+      a lot of
+
+    unneccesary whitespace.
+    </p>
+    {/cleanup}
+
+- tidy (XML/XHTML only)
+
+  Renders the child blocks and then tries to rearrange the XML/XHTML structure
+  to be more readable. This can be used while developing to make it clearer
+  where errors occur in XML/XHTML output::
+
+    {tidy}
+    ....
+    {/tidy}
+
+Control structures
+^^^^^^^^^^^^^^^^^^
+
+Control structures are elements which help you control the flow of the code,
+either by doing conditional statements or by repeating certain actions.
+Control structures can exist both as Blocks and inline code.
+
+.. figure:: template_control_structures.png
+
+   Some of the control structure classes.
+
+Control structures for looping are:
+
+- foreach
+
+- for
+
+- while
+
+- do/while
+
+Control structures for code flow are:
+
+- if/elseif/else
+
+- switch/case
+
+- include
+
+  Executes the external template file and appends the output of it to the
+  current text output.
+
+- embed
+
+  Inlines the code from the external template as if it was local code. The code
+  will have access to all the variables of the current stack.
+
+- return/stop ?
+
+- break
+
+  Breaks out of loops.
+  Used outside a loop will cause an exception.
+
+- continue
+
+  Continues to next iteration in loop and processes the sequence.
+  Used outside a loop will cause an exception.
+
+- skip
+
+  Continues to next iteration in loop and does not process the sequence.
+  Used outside a loop will cause an exception.
+
+- delimiter
+
+  Piece of code which is executed at given iterations, e.g. every other
+  iteration.
+  Used outside a loop will cause an exception.
+
+- once
+
+  Execute child elements only once.
+
+Other structures:
+
+- def, undef
+
+- set
+
+
+Counters
+````````
+ .. Note: These entries are only a suggestion.
+
+- counter
+
+  Starts a counter at a given value which is increased at given steps. The
+  counter can be output and increased automatically. Also counters can be
+  stacked to start sub counts for a given period and then continue on the
+  previous count later on, the current counter stack level is also available
+  for output (starts at 1). If you need multiple separate counters the *name*
+  parameter can be used or it can be assigned an object.
+
+  Syntax::
+
+    {counter start [$start] [step $step] [name $name | as $object]}
+    {counter stop [name $name | $object]}
+    {counter [name $name]}
+    {counter level [name $name]}
+
+  Counting from 0::
+ 
+    {counter start 0}
+    {counter}
+    {counter}
+    {counter stop 0}
+
+  Counting from 1 and intervals of 2::
+
+    {counter start 1 step 2}
+    {counter}
+    {counter}
+    {counter stop}
+
+  Counting headers::
+
+    {counter start 1}
+    <h{counter level}>{counter} Header</h{counter level}>
+    ...
+    <h{counter level}>{counter} Header</h{counter level}>
+      {counter start 1}
+      <h{counter level}>{counter} Header</h{counter level}>
+      ...
+      <h{counter level}>{counter} Header</h{counter level}>
+
+  Using objects::
+
+    {counter start 1 as $c}
+    {$c.value}
+    {$c.level}
+    {counter stop $c}
+
+- sequence
+
+  Similar to *counter* but will go trough a given sequence array over and over
+  again.
+
+  Syntax::
+
+    {sequence start array() [name $name | as $object]}
+    {sequence stop [name $name | $object]}
+    {sequence restart [name $name]}
+    {sequence [name $name]}
+    {sequence level [name $name]}
+
+  Sequences are typically used to generate tables with even/odd colors::
+ 
+    {sequence start array( 'red', 'blue' )}
+    <table>
+    <tr class="{sequence}">...</tr>
+    <tr class="{sequence}">...</tr>
+    <tr class="{sequence}">...</tr>
+    <tr class="{sequence}">...</tr>
+    {sequence stop}
+
+  Using objects::
+
+    {sequence start 1 as $s}
+    {$s.value}
+    {$s.level}
+    {sequence stop $s}
+
+Output handling
+---------------
+
+Output handling is done by append the text result to the current execution
+object. Washing of the output depends on the current output context, for
+instance it can add additional HTML entity escaping.
+Since some strings from functions or properties might return HTML it needs
+ways to detect this and disable output washing.
+
+Note: The output from print, echo can be caught if it is desired, e.g. when
+executing external PHP scripts.
+
+.. figure:: template_context.png
+
+   The default context classes and the interface.
+
+Type hinting
+------------
+
+It must be possible to give type hints to the template system for the variables
+and parameters. This can be used by the optimizer to further optimize usage on
+variables, e.g. operator usage and function calls.
+
+Op-Codes
+--------
+
+The Op-Codes are the result from the transformation of template elements. These
+Op-Codes reflect the basic building blocks of PHP code and is highly structured
+which allows for easy traversal and transformation.
+The Op-Codes can be optimized to reduce the code needed for one template and
+then generated into PHP code as text.
+
+The Op-Code structure will be cached on disk before elements are inlined and
+the Op-Codes are optimized. This means that the source code for one inlined
+element can be updated by recreating the Op-Code structure for this element and
+then inlining and optimizing it again.
+
+Design keys
+-----------
+
+All PHP objects can return information on design keys to use by implementing
+the ezcTemplateDesignkey interface. The object must return a hash array with
+the key names and values. A value is either a string or an array of strings.
+
+These design keys are used to determine which actual template file to fetch
+(only for some resources).
+
+Design keys are stacked for templates and subtemplates, this means that they
+will be inherited to sub-includes unless they are overriden. Once an include is
+finished the old design keys are restored.
+
+Execution
+---------
+
+The execution of a template file consists of several steps many which can
+shortcut under some conditions. The end result is always the execution of a
+generated PHP file which consists of code made from the template.
+
+.. figure:: template_execution.png
+
+   Activities in executing a template.
+
+Loading contents
+^^^^^^^^^^^^^^^^
+
+.. figure:: template_execution_content_load.png
+
+   Loading the template contents as plain text into source.
+
+Transforming elements
+^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: template_execution_element_transformation.png
+
+   Turning elements into PHP structures.
+
+Generating code
+^^^^^^^^^^^^^^^
+
+.. figure:: template_execution_generate_php.png
+
+   Generating PHP code.
+
+Variables
+---------
+
+All template variables will be created as normal PHP variables in the compiled
+code. This greatly increases the speed of the execution and makes the system
+easier to debug. The name of the PHP variable will not match the template name,
+the major reason being that some reserved names might clash with the user
+defined ones.
+
+Reserved variables
+^^^^^^^^^^^^^^^^^^
+
+The template system will use some PHP variables for keeping track of execution
+states, these variables must be registered in the template system as being
+reserved and used by the variable name generator.
+
+
+Main classes
+------------
+
+.. figure:: template.png
+
+   Main classes for the template engine.
+
+Public classes
+--------------
+
+To make it easier for 3rd party developers to access or enhance the template
+engine they must make sure they only relate to what is defined as public
+classes.
+
+.. figure:: template_public.png
+
+   Publicly available classes.
+
+Normal usage
+^^^^^^^^^^^^
+
+The most common way to use the template engine is to execute template files and
+get the resulting output text. This involves creating an *ezcTemplate* object
+and setting the correct output context.
+
+Extending the engine
+^^^^^^^^^^^^^^^^^^^^
+
+There are many ways to extend what the engine is capable of. This can be to
+generate a new context for handling the output, creating new elements
+(e.g. functions).
+
+Guidelines
+==========
+
+
+Algorithms
+==========
+
+
+Data structures
+===============
+
+.. figure:: template_structures.png
+
+   The various internal classes used to execute code.
+
+
+
+..
+   Local Variables:
+   mode: rst
+   fill-column: 79
+   End:
+   vim: et syn=rst tw=79

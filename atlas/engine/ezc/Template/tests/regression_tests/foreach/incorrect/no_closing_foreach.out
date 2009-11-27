@@ -1,0 +1,5 @@
+mock:3:1: Incorrect nesting in code, close block {/foreach} expected.
+
+{$val}
+
+^

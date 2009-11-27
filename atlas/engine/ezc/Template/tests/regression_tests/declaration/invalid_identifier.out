@@ -1,0 +1,5 @@
+mock:1:7: The variable name is invalid.
+
+{var $5aa}
+      ^
+Invalid identifier

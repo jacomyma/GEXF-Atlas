@@ -1,0 +1,4 @@
+mock:1:30: Expecting a closing curly bracket: '}'
+
+{foreach 1..10 as $i limit 4 offset 2}
+                             ^

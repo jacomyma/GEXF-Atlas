@@ -1,0 +1,4 @@
+mock:3:7: Expecting an operand without a pre- or post operator.
+
+{!$a++}
+      ^

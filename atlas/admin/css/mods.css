@@ -1,0 +1,57 @@
+/* Sky */
+h1#branding {
+	background-image:url(../res/branding.png);
+	background-repeat:repeat-x;
+}
+.sky h1#branding {
+	background:none;
+}
+.sky{
+	height: 400px;
+	background-image:url(../res/sky-background.png);
+	background-repeat:repeat-x;
+}
+.sky .box{
+	background:none;
+}
+
+
+/* Nice type */
+.fancy{
+	font-family: "Warnock Pro", "Goudy Old Style","Palatino","Book Antiqua", Georgia, serif; 
+	font-style: italic;
+	font-weight: normal;
+}
+
+
+/* Kwicks */
+#kwick a p{
+	color:#333;
+	width:200px;
+	margin-left:250px;
+}
+#kwick a:hover p{
+	color:#000;
+}
+
+/* Menu 2 Tabs */
+ul.nav li span {
+	color:#333;
+	background:#fff;
+	font-weight:bold;
+	text-decoration:none;
+	display:block;
+	float:left;
+	padding:0 1em;
+	height:2.4em;
+	line-height:2.5em;
+	border:2px solid #666;
+	border-bottom:none;
+}
+
+/* Accordion : hover cursor */
+.toggler{
+	cursor:pointer;
+}
+
+

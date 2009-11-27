@@ -1,0 +1,4 @@
+mock:2:6: Expecting a closing curly bracket: '}'
+
+{++$a++}
+     ^

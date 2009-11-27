@@ -1,0 +1,25 @@
+{* Doc comment *}
+Hello world.
+
+{*Another docComment *}
+blablabla
+
+{ 4 // + 4 
+}
+{ 2 /* + 2 */ }
+{// This line will be ignored, and ends with a closing bracket } 
+{/* Ignore *//* me */}
+{//}
+{//a}
+{}
+{    }
+{/**/}
+{/**//**/}
+{       /*a*/}
+{///**/}
+{       //}
+{//
+}
+{///*
+ "hello" //*}
+{**}

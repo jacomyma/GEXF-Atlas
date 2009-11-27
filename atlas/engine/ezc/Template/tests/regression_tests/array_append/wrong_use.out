@@ -1,0 +1,4 @@
+mock:4:7: Expecting an assignment '=' after an array append '[]'.
+
+{$a[] . $b = 2}
+      ^

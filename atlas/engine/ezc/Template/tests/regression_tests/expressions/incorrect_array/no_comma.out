@@ -1,0 +1,4 @@
+mock:1:20: Expecting a closing parentheses: ')' or a comma ','
+
+{var $a = array( 1 2 )}
+                   ^

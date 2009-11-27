@@ -1,0 +1,3971 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gephi.org/gexf" xmlns:viz="http://www.gephi.org/gexf/viz">
+<graph type="static">
+<attributes class="node" type="static">
+<attribute id="importId" title="importId" type="string"/>
+<attribute id="label" title="label" type="string"/>
+<attribute id="GROUPE_Positionnement_social" title="GROUPE_Positionnement_social" type="string"/>
+<attribute id="LIBELLE_Commerce_Equitable" title="LIBELLE_Commerce_Equitable" type="string"/>
+<attribute id="nb_pages_visitees" title="nb_pages_visitees" type="integer"/>
+<attribute id="LIBELLE_Vente_en_ligne" title="LIBELLE_Vente_en_ligne" type="string"/>
+<attribute id="hubXauth" title="hubXauth" type="float"/>
+<attribute id="hub" title="hub" type="float"/>
+<attribute id="LIBELLE_producteur" title="LIBELLE_producteur" type="string"/>
+<attribute id="hubXauth_norm" title="hubXauth_norm" type="integer"/>
+<attribute id="auth_norm" title="auth_norm" type="integer"/>
+<attribute id="hub_norm" title="hub_norm" type="integer"/>
+<attribute id="GROUPE_Type_d_acteur" title="GROUPE_Type_d_acteur" type="string"/>
+<attribute id="LIBELLE_Solidarite_Internationale" title="LIBELLE_Solidarite_Internationale" type="string"/>
+<attribute id="nb_pages_marquees" title="nb_pages_marquees" type="string"/>
+<attribute id="LIBELLE_perturbations" title="LIBELLE_perturbations" type="string"/>
+<attribute id="etat" title="etat" type="string"/>
+<attribute id="auth" title="auth" type="float"/>
+<attribute id="importID" title="importID" type="string"/>
+</attributes>
+<nodes>
+<node id="402" label="http://www.guayapi.com">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="-1.7474236" y="20.198444" z="0.0"/>
+<viz:size value="2.0096"/>
+<attvalues>
+<attvalue id="0" value="ncs1"/>
+<attvalue id="1" value="http://www.guayapi.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="7"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="3.0389776E-7"/>
+<attvalue id="7" value="0.0012645959"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="5"/>
+<attvalue id="10" value="10"/>
+<attvalue id="11" value="52"/>
+<attvalue id="12" value="Createur_Marque_Produit_fini"/>
+<attvalue id="13" value="non"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="2.4031215E-4"/>
+<attvalue id="18" value="ncs1"/>
+</attvalues>
+</node>
+<node id="403" label="http://www.commercequitable.org">
+<viz:color b="102" g="102" r="102"/>
+<viz:position x="7.6825027" y="14.765095" z="0.0"/>
+<viz:size value="8.0"/>
+<attvalues>
+<attvalue id="0" value="ncs2"/>
+<attvalue id="1" value="http://www.commercequitable.org"/>
+<attvalue id="2" value="Collectif_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="4"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="3.0479118E-6"/>
+<attvalue id="7" value="2.6041956E-4"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="52"/>
+<attvalue id="10" value="485"/>
+<attvalue id="11" value="11"/>
+<attvalue id="12" value="Type_mixte"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.011703852"/>
+<attvalue id="18" value="ncs2"/>
+</attvalues>
+</node>
+<node id="404" label="http://www.ideo-wear.com">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="35.048306" y="-31.787697" z="0.0"/>
+<viz:size value="2.0384"/>
+<attvalues>
+<attvalue id="0" value="ncs5"/>
+<attvalue id="1" value="http://www.ideo-wear.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="10"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="9.289726E-7"/>
+<attvalue id="7" value="4.6615582E-4"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="16"/>
+<attvalue id="10" value="83"/>
+<attvalue id="11" value="19"/>
+<attvalue id="12" value="Createur_Marque_Produit_fini"/>
+<attvalue id="13" value="non"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.001992837"/>
+<attvalue id="18" value="ncs5"/>
+</attvalues>
+</node>
+<node id="405" label="http://www.azimuts-art-nepal.com">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="13.641528" y="-25.332558" z="0.0"/>
+<viz:size value="2.3456001"/>
+<attvalues>
+<attvalue id="0" value="ncs13"/>
+<attvalue id="1" value="http://www.azimuts-art-nepal.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="7"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="7.365838E-7"/>
+<attvalue id="7" value="4.1902144E-4"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="13"/>
+<attvalue id="10" value="73"/>
+<attvalue id="11" value="17"/>
+<attvalue id="12" value="Createur_Marque_Produit_fini"/>
+<attvalue id="13" value="non"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0017578666"/>
+<attvalue id="18" value="ncs13"/>
+</attvalues>
+</node>
+<node id="406" label="http://www.commercequitable.com">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="22.153883" y="-26.700653" z="0.0"/>
+<viz:size value="2.3456001"/>
+<attvalues>
+<attvalue id="0" value="ncs14"/>
+<attvalue id="1" value="http://www.commercequitable.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="18"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="7.6149363E-6"/>
+<attvalue id="7" value="0.0072178775"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="131"/>
+<attvalue id="10" value="44"/>
+<attvalue id="11" value="299"/>
+<attvalue id="12" value="Commerce"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0010550105"/>
+<attvalue id="18" value="ncs14"/>
+</attvalues>
+</node>
+<node id="407" label="http://www.tudobom.fr">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="46.41568" y="-39.157497" z="0.0"/>
+<viz:size value="2.1536"/>
+<attvalues>
+<attvalue id="0" value="ncs15"/>
+<attvalue id="1" value="http://www.tudobom.fr"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="6"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="2.0843588E-8"/>
+<attvalue id="7" value="4.838892E-5"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="18"/>
+<attvalue id="11" value="2"/>
+<attvalue id="12" value="Createur_Marque_Produit_fini"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="4.3075124E-4"/>
+<attvalue id="18" value="ncs15"/>
+</attvalues>
+</node>
+<node id="408" label="http://www.transparent-trade.org">
+<viz:color b="0" g="153" r="0"/>
+<viz:position x="16.968372" y="-19.33956" z="0.0"/>
+<viz:size value="2.1536"/>
+<attvalues>
+<attvalue id="0" value="ncs17"/>
+<attvalue id="1" value="http://www.transparent-trade.org"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="7"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="2.4799688E-8"/>
+<attvalue id="7" value="3.2220557E-4"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="3"/>
+<attvalue id="11" value="13"/>
+<attvalue id="12" value="Association"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="7.696853E-5"/>
+<attvalue id="18" value="ncs17"/>
+</attvalues>
+</node>
+<node id="409" label="http://www.comptoir-ethique.com">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="40.15359" y="-41.95028" z="0.0"/>
+<viz:size value="2.0864"/>
+<attvalues>
+<attvalue id="0" value="ncs18"/>
+<attvalue id="1" value="http://www.comptoir-ethique.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="6"/>
+<attvalue id="5" value="oui"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="12"/>
+<attvalue id="11" value="0"/>
+<attvalue id="12" value="Commerce"/>
+<attvalue id="13" value="non"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="2.969235E-4"/>
+<attvalue id="18" value="ncs18"/>
+</attvalues>
+</node>
+<node id="410" label="http://www.modetic.com">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="39.922153" y="-26.788458" z="0.0"/>
+<viz:size value="2.1536"/>
+<attvalues>
+<attvalue id="0" value="ncs20"/>
+<attvalue id="1" value="http://www.modetic.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="3"/>
+<attvalue id="5" value="oui"/>
+<attvalue id="6" value="1.88105E-8"/>
+<attvalue id="7" value="1.1774673E-4"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="7"/>
+<attvalue id="11" value="5"/>
+<attvalue id="12" value="Commerce"/>
+<attvalue id="13" value="non"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="1.5975391E-4"/>
+<attvalue id="18" value="ncs20"/>
+</attvalues>
+</node>
+<node id="411" label="http://www.india-kala.com">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="-19.22214" y="-0.8117394" z="0.0"/>
+<viz:size value="2.0"/>
+<attvalues>
+<attvalue id="0" value="ncs29"/>
+<attvalue id="1" value="http://www.india-kala.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="9"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="3.2000509E-4"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="0"/>
+<attvalue id="11" value="13"/>
+<attvalue id="12" value="Commerce"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0"/>
+<attvalue id="18" value="ncs29"/>
+</attvalues>
+</node>
+<node id="412" label="http://www.minga.net">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="-15.115171" y="0.9137098" z="0.0"/>
+<viz:size value="2.7775998"/>
+<attvalues>
+<attvalue id="0" value="ncs30"/>
+<attvalue id="1" value="http://www.minga.net"/>
+<attvalue id="2" value="Collectif_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="8"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="1.2911753E-6"/>
+<attvalue id="7" value="9.777806E-4"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="22"/>
+<attvalue id="10" value="55"/>
+<attvalue id="11" value="40"/>
+<attvalue id="12" value="Commerce"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0013205165"/>
+<attvalue id="18" value="ncs30"/>
+</attvalues>
+</node>
+<node id="413" label="http://www.forumequitable.org">
+<viz:color b="102" g="102" r="102"/>
+<viz:position x="-3.29328" y="6.7170935" z="0.0"/>
+<viz:size value="2.0384"/>
+<attvalues>
+<attvalue id="0" value="ncs50"/>
+<attvalue id="1" value="http://www.forumequitable.org"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="5"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="2.3422867E-6"/>
+<attvalue id="7" value="0.007348625"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="40"/>
+<attvalue id="10" value="13"/>
+<attvalue id="11" value="304"/>
+<attvalue id="12" value="report"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="3.187381E-4"/>
+<attvalue id="18" value="ncs50"/>
+</attvalues>
+</node>
+<node id="414" label="http://www.justethic.com">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="30.214396" y="-9.440105" z="0.0"/>
+<viz:size value="2.0096"/>
+<attvalues>
+<attvalue id="0" value="ncs60"/>
+<attvalue id="1" value="http://www.justethic.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="24"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="5.9575342E-8"/>
+<attvalue id="7" value="2.7586205E-4"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="1"/>
+<attvalue id="10" value="9"/>
+<attvalue id="11" value="11"/>
+<attvalue id="12" value="Negociant_Importateur_Grossiste"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="2.1596062E-4"/>
+<attvalue id="18" value="ncs60"/>
+</attvalues>
+</node>
+<node id="415" label="http://www.altermundi.com">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="33.666683" y="1.3940817" z="0.0"/>
+<viz:size value="2.1536"/>
+<attvalues>
+<attvalue id="0" value="ncs64"/>
+<attvalue id="1" value="http://www.altermundi.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="4"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="1.4429688E-5"/>
+<attvalue id="7" value="0.005623548"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="247"/>
+<attvalue id="10" value="106"/>
+<attvalue id="11" value="233"/>
+<attvalue id="12" value="Commerce"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0025659404"/>
+<attvalue id="18" value="ncs64"/>
+</attvalues>
+</node>
+<node id="416" label="http://www.ritimo.org">
+<viz:color b="0" g="153" r="0"/>
+<viz:position x="4.7273088" y="40.140472" z="0.0"/>
+<viz:size value="2.4703999"/>
+<attvalues>
+<attvalue id="0" value="ncs66"/>
+<attvalue id="1" value="http://www.ritimo.org"/>
+<attvalue id="2" value="Collectif_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="5"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="1.16137075E-4"/>
+<attvalue id="7" value="0.0072904294"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="1991"/>
+<attvalue id="10" value="660"/>
+<attvalue id="11" value="302"/>
+<attvalue id="12" value="Association"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.015930073"/>
+<attvalue id="18" value="ncs66"/>
+</attvalues>
+</node>
+<node id="417" label="http://www.artisansdumonde.org">
+<viz:color b="0" g="153" r="0"/>
+<viz:position x="-4.323528" y="41.386417" z="0.0"/>
+<viz:size value="4.4575996"/>
+<attvalues>
+<attvalue id="0" value="ncs139"/>
+<attvalue id="1" value="http://www.artisansdumonde.org"/>
+<attvalue id="2" value="Collectif_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="9"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="1.1406864E-4"/>
+<attvalue id="7" value="0.0065008504"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="1955"/>
+<attvalue id="10" value="726"/>
+<attvalue id="11" value="269"/>
+<attvalue id="12" value="Association"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.017546726"/>
+<attvalue id="18" value="ncs139"/>
+</attvalues>
+</node>
+<node id="418" label="http://www.maxhavelaarfrance.org">
+<viz:color b="0" g="153" r="0"/>
+<viz:position x="22.903358" y="10.341359" z="0.0"/>
+<viz:size value="5.1103997"/>
+<attvalues>
+<attvalue id="0" value="ncs140"/>
+<attvalue id="1" value="http://www.maxhavelaarfrance.org"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="17"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="5.3639305E-5"/>
+<attvalue id="7" value="0.0030694846"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="919"/>
+<attvalue id="10" value="723"/>
+<attvalue id="11" value="127"/>
+<attvalue id="12" value="Association"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.01747502"/>
+<attvalue id="18" value="ncs140"/>
+</attvalues>
+</node>
+<node id="419" label="http://www.altereco.com">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="20.830597" y="-1.2161949" z="0.0"/>
+<viz:size value="2.7775998"/>
+<attvalues>
+<attvalue id="0" value="ncs142"/>
+<attvalue id="1" value="http://www.altereco.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="27"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="9.5436835E-6"/>
+<attvalue id="7" value="0.0016529413"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="164"/>
+<attvalue id="10" value="239"/>
+<attvalue id="11" value="68"/>
+<attvalue id="12" value="Negociant_Importateur_Grossiste"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.005773758"/>
+<attvalue id="18" value="ncs142"/>
+</attvalues>
+</node>
+<node id="420" label="http://www.ifat.org">
+<viz:color b="102" g="102" r="102"/>
+<viz:position x="6.4882736" y="26.28079" z="0.0"/>
+<viz:size value="2.7775998"/>
+<attvalues>
+<attvalue id="0" value="ncs143"/>
+<attvalue id="1" value="http://www.ifat.org"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="11"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="9.2066716E-7"/>
+<attvalue id="7" value="2.616529E-4"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="16"/>
+<attvalue id="10" value="146"/>
+<attvalue id="11" value="11"/>
+<attvalue id="12" value="report"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0035186585"/>
+<attvalue id="18" value="ncs143"/>
+</attvalues>
+</node>
+<node id="421" label="http://www.ethnik.org">
+<viz:color b="0" g="153" r="0"/>
+<viz:position x="23.088018" y="28.327353" z="0.0"/>
+<viz:size value="2.24"/>
+<attvalues>
+<attvalue id="0" value="ncs145"/>
+<attvalue id="1" value="http://www.ethnik.org"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="7"/>
+<attvalue id="5" value="oui"/>
+<attvalue id="6" value="5.0208337E-6"/>
+<attvalue id="7" value="0.0015205205"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="86"/>
+<attvalue id="10" value="137"/>
+<attvalue id="11" value="63"/>
+<attvalue id="12" value="Association"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0033020494"/>
+<attvalue id="18" value="ncs145"/>
+</attvalues>
+</node>
+<node id="422" label="http://www.equiterre.com">
+<viz:color b="0" g="153" r="0"/>
+<viz:position x="24.656784" y="-12.842029" z="0.0"/>
+<viz:size value="2.1536"/>
+<attvalues>
+<attvalue id="0" value="ncs146"/>
+<attvalue id="1" value="http://www.equiterre.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="8"/>
+<attvalue id="5" value="oui"/>
+<attvalue id="6" value="3.8733568E-5"/>
+<attvalue id="7" value="0.0100157885"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="664"/>
+<attvalue id="10" value="160"/>
+<attvalue id="11" value="415"/>
+<attvalue id="12" value="Association"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.003867251"/>
+<attvalue id="18" value="ncs146"/>
+</attvalues>
+</node>
+<node id="423" label="http://www.ccfd.asso.fr">
+<viz:color b="0" g="153" r="0"/>
+<viz:position x="24.819115" y="47.861595" z="0.0"/>
+<viz:size value="2.4703999"/>
+<attvalues>
+<attvalue id="0" value="ncs149"/>
+<attvalue id="1" value="http://www.ccfd.asso.fr"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="7"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="7.888222E-5"/>
+<attvalue id="7" value="0.00404827"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="1352"/>
+<attvalue id="10" value="807"/>
+<attvalue id="11" value="168"/>
+<attvalue id="12" value="Association"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.019485414"/>
+<attvalue id="18" value="ncs149"/>
+</attvalues>
+</node>
+<node id="424" label="http://www.ccequitable.com">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="-5.5902634" y="3.9037204" z="0.0"/>
+<viz:size value="2.0"/>
+<attvalues>
+<attvalue id="0" value="ncs158"/>
+<attvalue id="1" value="http://www.ccequitable.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="7"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="3.3332744E-5"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="0"/>
+<attvalue id="11" value="1"/>
+<attvalue id="12" value="Negociant_Importateur_Grossiste"/>
+<attvalue id="13" value="non"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0"/>
+<attvalue id="18" value="ncs158"/>
+</attvalues>
+</node>
+<node id="425" label="http://www.lemarchecitoyen.net">
+<viz:color b="0" g="153" r="0"/>
+<viz:position x="-3.3179579" y="12.949361" z="0.0"/>
+<viz:size value="2.0864"/>
+<attvalues>
+<attvalue id="0" value="ncs162"/>
+<attvalue id="1" value="http://www.lemarchecitoyen.net"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="157"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="1.1801212E-5"/>
+<attvalue id="7" value="0.013318512"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="202"/>
+<attvalue id="10" value="37"/>
+<attvalue id="11" value="551"/>
+<attvalue id="12" value="Association"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="8.860759E-4"/>
+<attvalue id="18" value="ncs162"/>
+</attvalues>
+</node>
+<node id="426" label="http://www.finansol.org">
+<viz:color b="102" g="102" r="102"/>
+<viz:position x="37.73472" y="41.12188" z="0.0"/>
+<viz:size value="2.4703999"/>
+<attvalues>
+<attvalue id="0" value="ncs184"/>
+<attvalue id="1" value="http://www.finansol.org"/>
+<attvalue id="2" value="Collectif_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="46"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="1.9727304E-5"/>
+<attvalue id="7" value="0.0044534705"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="338"/>
+<attvalue id="10" value="183"/>
+<attvalue id="11" value="184"/>
+<attvalue id="12" value="report"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0044296472"/>
+<attvalue id="18" value="ncs184"/>
+</attvalues>
+</node>
+<node id="427" label="http://www.alternatives-economiques.fr">
+<viz:color b="0" g="153" r="255"/>
+<viz:position x="-9.761753" y="13.209785" z="0.0"/>
+<viz:size value="2.1536"/>
+<attvalues>
+<attvalue id="0" value="ncs195"/>
+<attvalue id="1" value="http://www.alternatives-economiques.fr"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="11"/>
+<attvalue id="5" value="oui"/>
+<attvalue id="6" value="4.7572456E-5"/>
+<attvalue id="7" value="0.013124753"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="815"/>
+<attvalue id="10" value="150"/>
+<attvalue id="11" value="543"/>
+<attvalue id="12" value="Presse_Radio_Television"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0036246362"/>
+<attvalue id="18" value="ncs195"/>
+</attvalues>
+</node>
+<node id="428" label="http://www.eco-sapiens.com">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="4.9919677" y="0.30592972" z="0.0"/>
+<viz:size value="2.24"/>
+<attvalues>
+<attvalue id="0" value="ncs198"/>
+<attvalue id="1" value="http://www.eco-sapiens.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="78"/>
+<attvalue id="5" value="oui"/>
+<attvalue id="6" value="3.1450975E-6"/>
+<attvalue id="7" value="0.0034709016"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="54"/>
+<attvalue id="10" value="38"/>
+<attvalue id="11" value="144"/>
+<attvalue id="12" value="Commerce"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="9.061327E-4"/>
+<attvalue id="18" value="ncs198"/>
+</attvalues>
+</node>
+<node id="429" label="http://www.larevuedurable.com">
+<viz:color b="0" g="153" r="255"/>
+<viz:position x="4.088249" y="-4.7158833" z="0.0"/>
+<viz:size value="2.0864"/>
+<attvalues>
+<attvalue id="0" value="ncs200"/>
+<attvalue id="1" value="http://www.larevuedurable.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="5"/>
+<attvalue id="5" value="oui"/>
+<attvalue id="6" value="1.2801158E-7"/>
+<attvalue id="7" value="1.4143367E-4"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="2"/>
+<attvalue id="10" value="37"/>
+<attvalue id="11" value="6"/>
+<attvalue id="12" value="Presse_Radio_Television"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="9.0509973E-4"/>
+<attvalue id="18" value="ncs200"/>
+</attvalues>
+</node>
+<node id="430" label="http://www.ethique-sur-etiquette.org">
+<viz:color b="102" g="102" r="102"/>
+<viz:position x="9.485323" y="34.05788" z="0.0"/>
+<viz:size value="2.6144"/>
+<attvalues>
+<attvalue id="0" value="ncs207"/>
+<attvalue id="1" value="http://www.ethique-sur-etiquette.org"/>
+<attvalue id="2" value="Collectif_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="4"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="1.5109438E-5"/>
+<attvalue id="7" value="0.0021953718"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="259"/>
+<attvalue id="10" value="285"/>
+<attvalue id="11" value="91"/>
+<attvalue id="12" value="Type_mixte"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0068824054"/>
+<attvalue id="18" value="ncs207"/>
+</attvalues>
+</node>
+<node id="431" label="http://www.bioequitable.com">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="-25.225998" y="-34.569256" z="0.0"/>
+<viz:size value="2.0384"/>
+<attvalues>
+<attvalue id="0" value="ncs229"/>
+<attvalue id="1" value="http://www.bioequitable.com"/>
+<attvalue id="2" value="Collectif_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="5"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="7.9366237E-7"/>
+<attvalue id="7" value="0.0014362464"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="14"/>
+<attvalue id="10" value="23"/>
+<attvalue id="11" value="59"/>
+<attvalue id="12" value="Negociant_Importateur_Grossiste"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="5.5259484E-4"/>
+<attvalue id="18" value="ncs229"/>
+</attvalues>
+</node>
+<node id="432" label="http://www.garrigue.net">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="41.153004" y="4.4252367" z="0.0"/>
+<viz:size value="2.3456001"/>
+<attvalues>
+<attvalue id="0" value="ncs231"/>
+<attvalue id="1" value="http://www.garrigue.net"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="7"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="2.4732333E-6"/>
+<attvalue id="7" value="8.2761416E-4"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="42"/>
+<attvalue id="10" value="124"/>
+<attvalue id="11" value="34"/>
+<attvalue id="12" value="Commerce"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0029883892"/>
+<attvalue id="18" value="ncs231"/>
+</attvalues>
+</node>
+<node id="433" label="http://www.amisdelaterre.org">
+<viz:color b="0" g="153" r="0"/>
+<viz:position x="-4.163124" y="28.527834" z="0.0"/>
+<viz:size value="2.24"/>
+<attvalues>
+<attvalue id="0" value="ncs237"/>
+<attvalue id="1" value="http://www.amisdelaterre.org"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="5"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="410"/>
+<attvalue id="11" value="0"/>
+<attvalue id="12" value="Association"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.009893685"/>
+<attvalue id="18" value="ncs237"/>
+</attvalues>
+</node>
+<node id="434" label="http://www.alapasserelle.org">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="-60.385784" y="-3.7438817" z="0.0"/>
+<viz:size value="2.0"/>
+<attvalues>
+<attvalue id="0" value="ncs279"/>
+<attvalue id="1" value="http://www.alapasserelle.org"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="4"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="0"/>
+<attvalue id="11" value="0"/>
+<attvalue id="12" value="Commerce"/>
+<attvalue id="13" value="non"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0"/>
+<attvalue id="18" value="ncs279"/>
+</attvalues>
+</node>
+<node id="435" label="http://www.ecocert.fr">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="-16.5843" y="-38.582863" z="0.0"/>
+<viz:size value="2.3456001"/>
+<attvalues>
+<attvalue id="0" value="ncs299"/>
+<attvalue id="1" value="http://www.ecocert.fr"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="4"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="1.4287607E-8"/>
+<attvalue id="7" value="3.4948032E-5"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="17"/>
+<attvalue id="11" value="1"/>
+<attvalue id="12" value="Commerce"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="4.0882436E-4"/>
+<attvalue id="18" value="ncs299"/>
+</attvalues>
+</node>
+<node id="436" label="http://www.le-douanier-vert.fr">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="-33.369247" y="21.440401" z="0.0"/>
+<viz:size value="2.0096"/>
+<attvalues>
+<attvalue id="0" value="ncs446"/>
+<attvalue id="1" value="http://www.le-douanier-vert.fr"/>
+<attvalue id="2" value="Collectif_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="7"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="1.09944E-9"/>
+<attvalue id="7" value="2.9300152E-5"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="2"/>
+<attvalue id="11" value="1"/>
+<attvalue id="12" value="Negociant_Importateur_Grossiste"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="3.7523354E-5"/>
+<attvalue id="18" value="ncs446"/>
+</attvalues>
+</node>
+<node id="437" label="http://www.sira-kura.com">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="-31.242523" y="25.023037" z="0.0"/>
+<viz:size value="2.0384"/>
+<attvalues>
+<attvalue id="0" value="ncs448"/>
+<attvalue id="1" value="http://www.sira-kura.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="2"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="4.1858805E-18"/>
+<attvalue id="7" value="1.7337504E-14"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="10"/>
+<attvalue id="11" value="0"/>
+<attvalue id="12" value="Commerce"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="2.41435E-4"/>
+<attvalue id="18" value="ncs448"/>
+</attvalues>
+</node>
+<node id="438" label="http://www.consomacteurs.com">
+<viz:color b="0" g="153" r="0"/>
+<viz:position x="25.631" y="-20.657936" z="0.0"/>
+<viz:size value="2.0384"/>
+<attvalues>
+<attvalue id="0" value="ncs453"/>
+<attvalue id="1" value="http://www.consomacteurs.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="125"/>
+<attvalue id="5" value="oui"/>
+<attvalue id="6" value="3.2472485E-7"/>
+<attvalue id="7" value="8.437806E-4"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="6"/>
+<attvalue id="10" value="16"/>
+<attvalue id="11" value="35"/>
+<attvalue id="12" value="Association"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="3.8484513E-4"/>
+<attvalue id="18" value="ncs453"/>
+</attvalues>
+</node>
+<node id="439" label="http://www.espaceequitable.org">
+<viz:color b="0" g="153" r="0"/>
+<viz:position x="29.015388" y="-40.778343" z="0.0"/>
+<viz:size value="2.0096"/>
+<attvalues>
+<attvalue id="0" value="ncs479"/>
+<attvalue id="1" value="http://www.espaceequitable.org"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="24"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="1.433869E-10"/>
+<attvalue id="7" value="7.732954E-5"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="0"/>
+<attvalue id="11" value="3"/>
+<attvalue id="12" value="Association"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="1.854232E-6"/>
+<attvalue id="18" value="ncs479"/>
+</attvalues>
+</node>
+<node id="440" label="http://www.altermondes.org">
+<viz:color b="0" g="153" r="255"/>
+<viz:position x="-13.911168" y="38.395256" z="0.0"/>
+<viz:size value="2.0864"/>
+<attvalues>
+<attvalue id="0" value="ncs482"/>
+<attvalue id="1" value="http://www.altermondes.org"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="4"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="90"/>
+<attvalue id="11" value="0"/>
+<attvalue id="12" value="Presse_Radio_Television"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0021800508"/>
+<attvalue id="18" value="ncs482"/>
+</attvalues>
+</node>
+<node id="441" label="http://www.avsf.org">
+<viz:color b="0" g="153" r="0"/>
+<viz:position x="35.176254" y="21.944231" z="0.0"/>
+<viz:size value="2.24"/>
+<attvalues>
+<attvalue id="0" value="ncs492"/>
+<attvalue id="1" value="http://www.avsf.org"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="3"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="1.9991296E-4"/>
+<attvalue id="7" value="0.030661164"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="3426"/>
+<attvalue id="10" value="270"/>
+<attvalue id="11" value="1269"/>
+<attvalue id="12" value="Association"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0065200706"/>
+<attvalue id="18" value="ncs492"/>
+</attvalues>
+</node>
+<node id="442" label="http://www.ecotours.fr">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="-65.59619" y="15.977373" z="0.0"/>
+<viz:size value="2.0"/>
+<attvalues>
+<attvalue id="0" value="ncs495"/>
+<attvalue id="1" value="http://www.ecotours.fr"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="4"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="0"/>
+<attvalue id="11" value="0"/>
+<attvalue id="12" value="Commerce"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0"/>
+<attvalue id="18" value="ncs495"/>
+</attvalues>
+</node>
+<node id="443" label="http://www.alterafrica.com">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="21.68607" y="-36.141144" z="0.0"/>
+<viz:size value="2.24"/>
+<attvalues>
+<attvalue id="0" value="ncs496"/>
+<attvalue id="1" value="http://www.alterafrica.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="2"/>
+<attvalue id="5" value="oui"/>
+<attvalue id="6" value="5.151802E-8"/>
+<attvalue id="7" value="7.006055E-5"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="1"/>
+<attvalue id="10" value="30"/>
+<attvalue id="11" value="3"/>
+<attvalue id="12" value="Commerce"/>
+<attvalue id="13" value="non"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="7.353356E-4"/>
+<attvalue id="18" value="ncs496"/>
+</attvalues>
+</node>
+<node id="444" label="http://www.consoglobe.com">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="4.4526753" y="-31.162209" z="0.0"/>
+<viz:size value="2.0864"/>
+<attvalues>
+<attvalue id="0" value="ncs500"/>
+<attvalue id="1" value="http://www.consoglobe.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="8"/>
+<attvalue id="5" value="oui"/>
+<attvalue id="6" value="7.8177E-9"/>
+<attvalue id="7" value="4.3154534E-5"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="7"/>
+<attvalue id="11" value="2"/>
+<attvalue id="12" value="Commerce"/>
+<attvalue id="13" value="non"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="1.8115595E-4"/>
+<attvalue id="18" value="ncs500"/>
+</attvalues>
+</node>
+<node id="445" label="http://www.epicerie-equitable.com">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="27.21231" y="-4.472453" z="0.0"/>
+<viz:size value="2.24"/>
+<attvalues>
+<attvalue id="0" value="ncs507"/>
+<attvalue id="1" value="http://www.epicerie-equitable.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="37"/>
+<attvalue id="5" value="oui"/>
+<attvalue id="6" value="8.391259E-7"/>
+<attvalue id="7" value="9.5441914E-4"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="14"/>
+<attvalue id="10" value="36"/>
+<attvalue id="11" value="40"/>
+<attvalue id="12" value="Commerce"/>
+<attvalue id="13" value="non"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="8.7920064E-4"/>
+<attvalue id="18" value="ncs507"/>
+</attvalues>
+</node>
+<node id="446" label="http://jlvalero.club.fr">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="-71.37089" y="0.9388223" z="0.0"/>
+<viz:size value="2.0"/>
+<attvalues>
+<attvalue id="0" value="ncs511"/>
+<attvalue id="1" value="http://jlvalero.club.fr"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="2"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="0"/>
+<attvalue id="11" value="0"/>
+<attvalue id="12" value="Negociant_Importateur_Grossiste"/>
+<attvalue id="13" value="non"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="6.451233E-15"/>
+<attvalue id="18" value="ncs511"/>
+</attvalues>
+</node>
+<node id="447" label="http://www.lesmouettesvertes.fr">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="-7.015568" y="6.49332" z="0.0"/>
+<viz:size value="2.0"/>
+<attvalues>
+<attvalue id="0" value="ncs512"/>
+<attvalue id="1" value="http://www.lesmouettesvertes.fr"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="23"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="3.3332744E-5"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="0"/>
+<attvalue id="11" value="1"/>
+<attvalue id="12" value="Createur_Marque_Produit_fini"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0"/>
+<attvalue id="18" value="ncs512"/>
+</attvalues>
+</node>
+<node id="448" label="http://www.maecafe.com">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="-56.4422" y="-20.99076" z="0.0"/>
+<viz:size value="2.0"/>
+<attvalues>
+<attvalue id="0" value="ncs586"/>
+<attvalue id="1" value="http://www.maecafe.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="2"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="0"/>
+<attvalue id="11" value="0"/>
+<attvalue id="12" value="Commerce"/>
+<attvalue id="13" value="non"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0"/>
+<attvalue id="18" value="ncs586"/>
+</attvalues>
+</node>
+<node id="449" label="http://www.lamaisondelafrique.com">
+<viz:color b="102" g="102" r="102"/>
+<viz:position x="-57.792004" y="-26.198275" z="0.0"/>
+<viz:size value="2.0"/>
+<attvalues>
+<attvalue id="0" value="ncs587"/>
+<attvalue id="1" value="http://www.lamaisondelafrique.com"/>
+<attvalue id="2" value="Collectif_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="41"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="6.14042E-4"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="0"/>
+<attvalue id="11" value="25"/>
+<attvalue id="12" value="report"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0"/>
+<attvalue id="18" value="ncs587"/>
+</attvalues>
+</node>
+<node id="450" label="http://www.markethic.fr">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="-63.80068" y="-13.499765" z="0.0"/>
+<viz:size value="2.0"/>
+<attvalues>
+<attvalue id="0" value="ncs590"/>
+<attvalue id="1" value="http://www.markethic.fr"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="3"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="0"/>
+<attvalue id="11" value="0"/>
+<attvalue id="12" value="Commerce"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0"/>
+<attvalue id="18" value="ncs590"/>
+</attvalues>
+</node>
+<node id="451" label="http://www.artisanatsel.com">
+<viz:color b="0" g="153" r="0"/>
+<viz:position x="64.3134" y="-16.669191" z="0.0"/>
+<viz:size value="2.0864"/>
+<attvalues>
+<attvalue id="0" value="ncs599"/>
+<attvalue id="1" value="http://www.artisanatsel.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="10"/>
+<attvalue id="5" value="oui"/>
+<attvalue id="6" value="1.2138631E-7"/>
+<attvalue id="7" value="1.1342745E-4"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="2"/>
+<attvalue id="10" value="44"/>
+<attvalue id="11" value="5"/>
+<attvalue id="12" value="Association"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0010701669"/>
+<attvalue id="18" value="ncs599"/>
+</attvalues>
+</node>
+<node id="452" label="http://www.alterecodirect.com">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="35.053284" y="-20.225874" z="0.0"/>
+<viz:size value="2.1536"/>
+<attvalues>
+<attvalue id="0" value="ncs601"/>
+<attvalue id="1" value="http://www.alterecodirect.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="3"/>
+<attvalue id="5" value="oui"/>
+<attvalue id="6" value="1.8063971E-6"/>
+<attvalue id="7" value="0.0028016455"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="31"/>
+<attvalue id="10" value="27"/>
+<attvalue id="11" value="116"/>
+<attvalue id="12" value="Commerce"/>
+<attvalue id="13" value="non"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="6.447629E-4"/>
+<attvalue id="18" value="ncs601"/>
+</attvalues>
+</node>
+<node id="453" label="http://www.sensetames.fr">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="6.1348276" y="-11.835773" z="0.0"/>
+<viz:size value="2.0096"/>
+<attvalues>
+<attvalue id="0" value="ncs603"/>
+<attvalue id="1" value="http://www.sensetames.fr"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="7"/>
+<attvalue id="5" value="oui"/>
+<attvalue id="6" value="2.1732224E-7"/>
+<attvalue id="7" value="0.001844247"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="4"/>
+<attvalue id="10" value="5"/>
+<attvalue id="11" value="76"/>
+<attvalue id="12" value="Commerce"/>
+<attvalue id="13" value="non"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="1.17837924E-4"/>
+<attvalue id="18" value="ncs603"/>
+</attvalues>
+</node>
+<node id="454" label="http://www.wonderful-monde.com">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="16.191063" y="5.6089506" z="0.0"/>
+<viz:size value="2.0384"/>
+<attvalues>
+<attvalue id="0" value="ncs604"/>
+<attvalue id="1" value="http://www.wonderful-monde.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="46"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="8.6905175E-7"/>
+<attvalue id="7" value="0.0051730885"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="15"/>
+<attvalue id="10" value="7"/>
+<attvalue id="11" value="214"/>
+<attvalue id="12" value="Createur_Marque_Produit_fini"/>
+<attvalue id="13" value="non"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="1.6799476E-4"/>
+<attvalue id="18" value="ncs604"/>
+</attvalues>
+</node>
+<node id="455" label="http://www.voielactee.com">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="53.80811" y="10.47559" z="0.0"/>
+<viz:size value="2.0096"/>
+<attvalues>
+<attvalue id="0" value="ncs605"/>
+<attvalue id="1" value="http://www.voielactee.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="42"/>
+<attvalue id="5" value="oui"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="5"/>
+<attvalue id="11" value="0"/>
+<attvalue id="12" value="Commerce"/>
+<attvalue id="13" value="non"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="1.17837924E-4"/>
+<attvalue id="18" value="ncs605"/>
+</attvalues>
+</node>
+<node id="456" label="http://www.moscalibre.info">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="-57.779343" y="-15.400106" z="0.0"/>
+<viz:size value="2.0"/>
+<attvalues>
+<attvalue id="0" value="ncs629"/>
+<attvalue id="1" value="http://www.moscalibre.info"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="16"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="0"/>
+<attvalue id="11" value="0"/>
+<attvalue id="12" value="Commerce"/>
+<attvalue id="13" value="non"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0"/>
+<attvalue id="18" value="ncs629"/>
+</attvalues>
+</node>
+<node id="457" label="http://www.misionmisericordia.com">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="-70.098816" y="-4.2355437" z="0.0"/>
+<viz:size value="2.0"/>
+<attvalues>
+<attvalue id="0" value="ncs630"/>
+<attvalue id="1" value="http://www.misionmisericordia.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="4"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="0"/>
+<attvalue id="11" value="0"/>
+<attvalue id="12" value="Createur_Marque_Produit_fini"/>
+<attvalue id="13" value="non"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0"/>
+<attvalue id="18" value="ncs630"/>
+</attvalues>
+</node>
+<node id="458" label="http://le-mes.org">
+<viz:color b="102" g="102" r="102"/>
+<viz:position x="18.82921" y="61.491837" z="0.0"/>
+<viz:size value="2.0096"/>
+<attvalues>
+<attvalue id="0" value="ncs631"/>
+<attvalue id="1" value="http://le-mes.org"/>
+<attvalue id="2" value="Collectif_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="7"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="5.311504E-7"/>
+<attvalue id="7" value="0.0042849593"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="9"/>
+<attvalue id="10" value="5"/>
+<attvalue id="11" value="177"/>
+<attvalue id="12" value="Type_mixte"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="1.2395694E-4"/>
+<attvalue id="18" value="ncs631"/>
+</attvalues>
+</node>
+<node id="459" label="http://cmr.cef.fr">
+<viz:color b="0" g="153" r="0"/>
+<viz:position x="-62.581657" y="-24.456375" z="0.0"/>
+<viz:size value="2.0"/>
+<attvalues>
+<attvalue id="0" value="ncs649"/>
+<attvalue id="1" value="http://cmr.cef.fr"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="4"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="60"/>
+<attvalue id="11" value="0"/>
+<attvalue id="12" value="Association"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0014609419"/>
+<attvalue id="18" value="ncs649"/>
+</attvalues>
+</node>
+<node id="460" label="http://www.adepes.org">
+<viz:color b="0" g="153" r="0"/>
+<viz:position x="24.607916" y="59.560402" z="0.0"/>
+<viz:size value="2.0384"/>
+<attvalues>
+<attvalue id="0" value="ncs670"/>
+<attvalue id="1" value="http://www.adepes.org"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="4"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="6.067707E-6"/>
+<attvalue id="7" value="0.0032222583"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="104"/>
+<attvalue id="10" value="78"/>
+<attvalue id="11" value="133"/>
+<attvalue id="12" value="Association"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0018830604"/>
+<attvalue id="18" value="ncs670"/>
+</attvalues>
+</node>
+<node id="461" label="http://www.apeas.fr">
+<viz:color b="0" g="153" r="0"/>
+<viz:position x="28.577278" y="43.41056" z="0.0"/>
+<viz:size value="2.24"/>
+<attvalues>
+<attvalue id="0" value="ncs671"/>
+<attvalue id="1" value="http://www.apeas.fr"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="8"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="2.7524413E-6"/>
+<attvalue id="7" value="0.0011704967"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="47"/>
+<attvalue id="10" value="97"/>
+<attvalue id="11" value="48"/>
+<attvalue id="12" value="Association"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0023515157"/>
+<attvalue id="18" value="ncs671"/>
+</attvalues>
+</node>
+<node id="462" label="http://www.peuples-solidaires.org">
+<viz:color b="0" g="153" r="0"/>
+<viz:position x="16.301395" y="54.73369" z="0.0"/>
+<viz:size value="2.6144"/>
+<attvalues>
+<attvalue id="0" value="ncs683"/>
+<attvalue id="1" value="http://www.peuples-solidaires.org"/>
+<attvalue id="2" value="non-classe"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="662"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="3.1221815E-4"/>
+<attvalue id="7" value="0.02450364"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="5351"/>
+<attvalue id="10" value="528"/>
+<attvalue id="11" value="1014"/>
+<attvalue id="12" value="Association"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0127417045"/>
+<attvalue id="18" value="ncs683"/>
+</attvalues>
+</node>
+<node id="463" label="http://www.sinvestir.org">
+<viz:color b="102" g="102" r="102"/>
+<viz:position x="18.726625" y="69.04936" z="0.0"/>
+<viz:size value="2.0096"/>
+<attvalues>
+<attvalue id="0" value="ncs685"/>
+<attvalue id="1" value="http://www.sinvestir.org"/>
+<attvalue id="2" value="Collectif_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="3"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="12"/>
+<attvalue id="11" value="0"/>
+<attvalue id="12" value="Type_mixte"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="2.9631722E-4"/>
+<attvalue id="18" value="ncs685"/>
+</attvalues>
+</node>
+<node id="464" label="http://www.andines.com">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="-15.007995" y="-5.959861" z="0.0"/>
+<viz:size value="2.4703999"/>
+<attvalues>
+<attvalue id="0" value="ncs689"/>
+<attvalue id="1" value="http://www.andines.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="7"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="7.2747844E-7"/>
+<attvalue id="7" value="3.3873157E-4"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="12"/>
+<attvalue id="10" value="89"/>
+<attvalue id="11" value="14"/>
+<attvalue id="12" value="Negociant_Importateur_Grossiste"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0021476548"/>
+<attvalue id="18" value="ncs689"/>
+</attvalues>
+</node>
+<node id="465" label="http://www.bbenv.com">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="12.1537075" y="-3.7225432" z="0.0"/>
+<viz:size value="2.1536"/>
+<attvalues>
+<attvalue id="0" value="ncs691"/>
+<attvalue id="1" value="http://www.bbenv.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="6"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="2.802194E-6"/>
+<attvalue id="7" value="0.0033185002"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="48"/>
+<attvalue id="10" value="35"/>
+<attvalue id="11" value="137"/>
+<attvalue id="12" value="Commerce"/>
+<attvalue id="13" value="non"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="8.444158E-4"/>
+<attvalue id="18" value="ncs691"/>
+</attvalues>
+</node>
+<node id="466" label="http://www.eki-table.org">
+<viz:color b="0" g="153" r="0"/>
+<viz:position x="-16.329016" y="19.920395" z="0.0"/>
+<viz:size value="2.0096"/>
+<attvalues>
+<attvalue id="0" value="ncs695"/>
+<attvalue id="1" value="http://www.eki-table.org"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="3"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="2.6123558E-7"/>
+<attvalue id="7" value="0.006961947"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="4"/>
+<attvalue id="10" value="2"/>
+<attvalue id="11" value="288"/>
+<attvalue id="12" value="Association"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="3.7523354E-5"/>
+<attvalue id="18" value="ncs695"/>
+</attvalues>
+</node>
+<node id="467" label="http://www.quatre-mats.org">
+<viz:color b="102" g="102" r="102"/>
+<viz:position x="-19.95538" y="9.379519" z="0.0"/>
+<viz:size value="2.1536"/>
+<attvalues>
+<attvalue id="0" value="ncs711"/>
+<attvalue id="1" value="http://www.quatre-mats.org"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="7"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="80"/>
+<attvalue id="11" value="0"/>
+<attvalue id="12" value="Type_mixte"/>
+<attvalue id="13" value="non"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0019260689"/>
+<attvalue id="18" value="ncs711"/>
+</attvalues>
+</node>
+<node id="468" label="http://www.taddart.com">
+<viz:color b="0" g="153" r="0"/>
+<viz:position x="-23.03977" y="-0.18231064" z="0.0"/>
+<viz:size value="2.0384"/>
+<attvalues>
+<attvalue id="0" value="ncs715"/>
+<attvalue id="1" value="http://www.taddart.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="5"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="1.5370692E-7"/>
+<attvalue id="7" value="5.04343E-4"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="3"/>
+<attvalue id="10" value="13"/>
+<attvalue id="11" value="21"/>
+<attvalue id="12" value="Association"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="3.0476664E-4"/>
+<attvalue id="18" value="ncs715"/>
+</attvalues>
+</node>
+<node id="469" label="http://www.naturalia.fr">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="-65.17532" y="-7.896722" z="0.0"/>
+<viz:size value="2.0"/>
+<attvalues>
+<attvalue id="0" value="ncs719"/>
+<attvalue id="1" value="http://www.naturalia.fr"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="115"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="0"/>
+<attvalue id="11" value="0"/>
+<attvalue id="12" value="Commerce"/>
+<attvalue id="13" value="non"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0"/>
+<attvalue id="18" value="ncs719"/>
+</attvalues>
+</node>
+<node id="470" label="http://www.ombreclaire.com">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="61.443142" y="-75.95427" z="0.0"/>
+<viz:size value="2.0096"/>
+<attvalues>
+<attvalue id="0" value="ncs722"/>
+<attvalue id="1" value="http://www.ombreclaire.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="2"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="0"/>
+<attvalue id="11" value="0"/>
+<attvalue id="12" value="Commerce"/>
+<attvalue id="13" value="non"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="2.2551974E-6"/>
+<attvalue id="18" value="ncs722"/>
+</attvalues>
+</node>
+<node id="471" label="http://www.oxfam.org">
+<viz:color b="0" g="153" r="0"/>
+<viz:position x="20.24265" y="33.45714" z="0.0"/>
+<viz:size value="2.1536"/>
+<attvalues>
+<attvalue id="0" value="ncs725"/>
+<attvalue id="1" value="http://www.oxfam.org"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="8"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="2.1504682E-6"/>
+<attvalue id="7" value="4.268361E-4"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="37"/>
+<attvalue id="10" value="209"/>
+<attvalue id="11" value="18"/>
+<attvalue id="12" value="Association"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.005038159"/>
+<attvalue id="18" value="ncs725"/>
+</attvalues>
+</node>
+<node id="472" label="http://www.crid.asso.fr">
+<viz:color b="0" g="153" r="0"/>
+<viz:position x="7.6239657" y="50.519947" z="0.0"/>
+<viz:size value="2.3456001"/>
+<attvalues>
+<attvalue id="0" value="ncs741"/>
+<attvalue id="1" value="http://www.crid.asso.fr"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="11"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="1.7088834E-4"/>
+<attvalue id="7" value="0.013521695"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="2929"/>
+<attvalue id="10" value="523"/>
+<attvalue id="11" value="560"/>
+<attvalue id="12" value="Association"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0126380855"/>
+<attvalue id="18" value="ncs741"/>
+</attvalues>
+</node>
+<node id="473" label="http://www.agora21.org">
+<viz:color b="0" g="153" r="0"/>
+<viz:position x="-0.6007952" y="0.5412302" z="0.0"/>
+<viz:size value="2.0384"/>
+<attvalues>
+<attvalue id="0" value="ncs768"/>
+<attvalue id="1" value="http://www.agora21.org"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="5"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="1.0378346E-5"/>
+<attvalue id="7" value="0.00222923"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="178"/>
+<attvalue id="10" value="193"/>
+<attvalue id="11" value="92"/>
+<attvalue id="12" value="Association"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0046555744"/>
+<attvalue id="18" value="ncs768"/>
+</attvalues>
+</node>
+<node id="474" label="http://www.france-libertes.fr">
+<viz:color b="0" g="153" r="0"/>
+<viz:position x="23.420845" y="53.682518" z="0.0"/>
+<viz:size value="2.0096"/>
+<attvalues>
+<attvalue id="0" value="ncs770"/>
+<attvalue id="1" value="http://www.france-libertes.fr"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="6"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="4.206182E-7"/>
+<attvalue id="7" value="8.713468E-5"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="7"/>
+<attvalue id="10" value="200"/>
+<attvalue id="11" value="4"/>
+<attvalue id="12" value="Association"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.004827219"/>
+<attvalue id="18" value="ncs770"/>
+</attvalues>
+</node>
+<node id="475" label="http://www.cosmebio.org">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="-1.1744664" y="-6.519401" z="0.0"/>
+<viz:size value="2.0384"/>
+<attvalues>
+<attvalue id="0" value="ncs809"/>
+<attvalue id="1" value="http://www.cosmebio.org"/>
+<attvalue id="2" value="Collectif_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="5"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="8.889264E-7"/>
+<attvalue id="7" value="0.006071187"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="15"/>
+<attvalue id="10" value="6"/>
+<attvalue id="11" value="251"/>
+<attvalue id="12" value="Negociant_Importateur_Grossiste"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="1.4641724E-4"/>
+<attvalue id="18" value="ncs809"/>
+</attvalues>
+</node>
+<node id="476" label="http://www.parisequitable.org">
+<viz:color b="0" g="153" r="0"/>
+<viz:position x="17.34271" y="22.292286" z="0.0"/>
+<viz:size value="2.0"/>
+<attvalues>
+<attvalue id="0" value="ncs832"/>
+<attvalue id="1" value="http://www.parisequitable.org"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="31"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.00704458"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="0"/>
+<attvalue id="11" value="292"/>
+<attvalue id="12" value="Association"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0"/>
+<attvalue id="18" value="ncs832"/>
+</attvalues>
+</node>
+<node id="477" label="http://www.choc-ethic.fr">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="47.98115" y="-19.070665" z="0.0"/>
+<viz:size value="2.0"/>
+<attvalues>
+<attvalue id="0" value="ncs834"/>
+<attvalue id="1" value="http://www.choc-ethic.fr"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="30"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="6.768679E-4"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="0"/>
+<attvalue id="11" value="28"/>
+<attvalue id="12" value="Commerce"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0"/>
+<attvalue id="18" value="ncs834"/>
+</attvalues>
+</node>
+<node id="478" label="http://www.visiondumonde.org">
+<viz:color b="0" g="153" r="0"/>
+<viz:position x="48.198837" y="-2.7624388" z="0.0"/>
+<viz:size value="2.0384"/>
+<attvalues>
+<attvalue id="0" value="ncs851"/>
+<attvalue id="1" value="http://www.visiondumonde.org"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="7"/>
+<attvalue id="5" value="oui"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="74"/>
+<attvalue id="11" value="0"/>
+<attvalue id="12" value="Association"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0017941984"/>
+<attvalue id="18" value="ncs851"/>
+</attvalues>
+</node>
+<node id="479" label="http://www.migdev.org">
+<viz:color b="0" g="153" r="0"/>
+<viz:position x="-69.56465" y="-13.915277" z="0.0"/>
+<viz:size value="2.0"/>
+<attvalues>
+<attvalue id="0" value="ncs852"/>
+<attvalue id="1" value="http://www.migdev.org"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="3"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="132"/>
+<attvalue id="11" value="0"/>
+<attvalue id="12" value="Association"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.003181813"/>
+<attvalue id="18" value="ncs852"/>
+</attvalues>
+</node>
+<node id="480" label="http://www.veja.fr">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="46.492966" y="-22.319492" z="0.0"/>
+<viz:size value="2.0864"/>
+<attvalues>
+<attvalue id="0" value="ncs884"/>
+<attvalue id="1" value="http://www.veja.fr"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="2"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="11"/>
+<attvalue id="11" value="0"/>
+<attvalue id="12" value="Createur_Marque_Produit_fini"/>
+<attvalue id="13" value="non"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="2.5989162E-4"/>
+<attvalue id="18" value="ncs884"/>
+</attvalues>
+</node>
+<node id="481" label="http://www.cofides.org">
+<viz:color b="102" g="102" r="102"/>
+<viz:position x="31.53628" y="52.87176" z="0.0"/>
+<viz:size value="2.0384"/>
+<attvalues>
+<attvalue id="0" value="ncs890"/>
+<attvalue id="1" value="http://www.cofides.org"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="2"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="7.927842E-6"/>
+<attvalue id="7" value="0.0026423146"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="136"/>
+<attvalue id="10" value="124"/>
+<attvalue id="11" value="109"/>
+<attvalue id="12" value="Type_mixte"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0030003397"/>
+<attvalue id="18" value="ncs890"/>
+</attvalues>
+</node>
+<node id="482" label="http://www.ethiquable.com">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="34.158325" y="13.642902" z="0.0"/>
+<viz:size value="2.24"/>
+<attvalues>
+<attvalue id="0" value="ncs986"/>
+<attvalue id="1" value="http://www.ethiquable.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="10"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="2.7792708E-5"/>
+<attvalue id="7" value="0.008362332"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="476"/>
+<attvalue id="10" value="138"/>
+<attvalue id="11" value="346"/>
+<attvalue id="12" value="Createur_Marque_Produit_fini"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0033235594"/>
+<attvalue id="18" value="ncs986"/>
+</attvalues>
+</node>
+<node id="483" label="http://www.selfrance.org">
+<viz:color b="0" g="153" r="0"/>
+<viz:position x="67.80063" y="-17.907415" z="0.0"/>
+<viz:size value="2.0096"/>
+<attvalues>
+<attvalue id="0" value="ncs990"/>
+<attvalue id="1" value="http://www.selfrance.org"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="5"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="4.1495423E-7"/>
+<attvalue id="7" value="3.7669172E-4"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="7"/>
+<attvalue id="10" value="46"/>
+<attvalue id="11" value="16"/>
+<attvalue id="12" value="Association"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0011015751"/>
+<attvalue id="18" value="ncs990"/>
+</attvalues>
+</node>
+<node id="484" label="http://www.salondessolidarites.org">
+<viz:color b="102" g="102" r="102"/>
+<viz:position x="-9.149891" y="23.875227" z="0.0"/>
+<viz:size value="2.0096"/>
+<attvalues>
+<attvalue id="0" value="ncs1021"/>
+<attvalue id="1" value="http://www.salondessolidarites.org"/>
+<attvalue id="2" value="Collectif_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="11"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="2.0557106E-6"/>
+<attvalue id="7" value="0.0058122296"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="35"/>
+<attvalue id="10" value="15"/>
+<attvalue id="11" value="241"/>
+<attvalue id="12" value="Type_mixte"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="3.536871E-4"/>
+<attvalue id="18" value="ncs1021"/>
+</attvalues>
+</node>
+<node id="485" label="http://www.cjdes.org">
+<viz:color b="102" g="102" r="102"/>
+<viz:position x="49.26084" y="35.587162" z="0.0"/>
+<viz:size value="2.1536"/>
+<attvalues>
+<attvalue id="0" value="ncs1035"/>
+<attvalue id="1" value="http://www.cjdes.org"/>
+<attvalue id="2" value="Collectif_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="8"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="7.9783814E-7"/>
+<attvalue id="7" value="3.1701234E-4"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="14"/>
+<attvalue id="10" value="104"/>
+<attvalue id="11" value="13"/>
+<attvalue id="12" value="report"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0025167416"/>
+<attvalue id="18" value="ncs1035"/>
+</attvalues>
+</node>
+<node id="486" label="http://www.ceges.org">
+<viz:color b="102" g="102" r="102"/>
+<viz:position x="46.26346" y="31.667032" z="0.0"/>
+<viz:size value="2.0384"/>
+<attvalues>
+<attvalue id="0" value="ncs1036"/>
+<attvalue id="1" value="http://www.ceges.org"/>
+<attvalue id="2" value="Collectif_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="4"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="9.593594E-6"/>
+<attvalue id="7" value="0.004572925"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="164"/>
+<attvalue id="10" value="87"/>
+<attvalue id="11" value="189"/>
+<attvalue id="12" value="report"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.002097912"/>
+<attvalue id="18" value="ncs1036"/>
+</attvalues>
+</node>
+<node id="487" label="http://www.tierrauna.fr">
+<viz:color b="0" g="153" r="0"/>
+<viz:position x="-62.556435" y="3.4063032" z="0.0"/>
+<viz:size value="2.0"/>
+<attvalues>
+<attvalue id="0" value="ncs1049"/>
+<attvalue id="1" value="http://www.tierrauna.fr"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="3"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="1.909531E-18"/>
+<attvalue id="7" value="1.7337504E-14"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="5"/>
+<attvalue id="11" value="0"/>
+<attvalue id="12" value="Association"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="1.10138746E-4"/>
+<attvalue id="18" value="ncs1049"/>
+</attvalues>
+</node>
+<node id="488" label="http://www.solidarmonde.fr">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="-18.723206" y="26.582567" z="0.0"/>
+<viz:size value="2.1536"/>
+<attvalues>
+<attvalue id="0" value="ncs1054"/>
+<attvalue id="1" value="http://www.solidarmonde.fr"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="6"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="74"/>
+<attvalue id="11" value="0"/>
+<attvalue id="12" value="Createur_Marque_Produit_fini"/>
+<attvalue id="13" value="non"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0017760044"/>
+<attvalue id="18" value="ncs1054"/>
+</attvalues>
+</node>
+<node id="489" label="http://www.tech-dev.org">
+<viz:color b="0" g="153" r="0"/>
+<viz:position x="-68.871" y="5.5831666" z="0.0"/>
+<viz:size value="2.0"/>
+<attvalues>
+<attvalue id="0" value="ncs1084"/>
+<attvalue id="1" value="http://www.tech-dev.org"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="10"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="5.4674217E-8"/>
+<attvalue id="7" value="2.6495525E-4"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="1"/>
+<attvalue id="10" value="9"/>
+<attvalue id="11" value="11"/>
+<attvalue id="12" value="Association"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="2.0635265E-4"/>
+<attvalue id="18" value="ncs1084"/>
+</attvalues>
+</node>
+<node id="490" label="http://www.terrapi.com">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="19.175097" y="-46.158737" z="0.0"/>
+<viz:size value="2.0096"/>
+<attvalues>
+<attvalue id="0" value="ncs1085"/>
+<attvalue id="1" value="http://www.terrapi.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="8"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="11"/>
+<attvalue id="11" value="0"/>
+<attvalue id="12" value="Createur_Marque_Produit_fini"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="oui"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="2.7721716E-4"/>
+<attvalue id="18" value="ncs1085"/>
+</attvalues>
+</node>
+<node id="491" label="http://www.themis.tm.fr">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="-68.20703" y="-24.206478" z="0.0"/>
+<viz:size value="2.0"/>
+<attvalues>
+<attvalue id="0" value="ncs1089"/>
+<attvalue id="1" value="http://www.themis.tm.fr"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="2"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="0"/>
+<attvalue id="11" value="0"/>
+<attvalue id="12" value="Createur_Marque_Produit_fini"/>
+<attvalue id="13" value="non"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0"/>
+<attvalue id="18" value="ncs1089"/>
+</attvalues>
+</node>
+<node id="492" label="http://www.umae.fr">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="27.82747" y="25.609194" z="0.0"/>
+<viz:size value="2.0384"/>
+<attvalues>
+<attvalue id="0" value="ncs1103"/>
+<attvalue id="1" value="http://www.umae.fr"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="7"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="1.1957687E-7"/>
+<attvalue id="7" value="3.4288256E-4"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="2"/>
+<attvalue id="10" value="14"/>
+<attvalue id="11" value="14"/>
+<attvalue id="12" value="Createur_Marque_Produit_fini"/>
+<attvalue id="13" value="non"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="3.4874002E-4"/>
+<attvalue id="18" value="ncs1103"/>
+</attvalues>
+</node>
+<node id="493" label="http://www.upandup.net">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="-60.522934" y="-38.581932" z="0.0"/>
+<viz:size value="2.0"/>
+<attvalues>
+<attvalue id="0" value="ncs1128"/>
+<attvalue id="1" value="http://www.upandup.net"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="58"/>
+<attvalue id="5" value="oui"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="5.1172767E-5"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="0"/>
+<attvalue id="11" value="2"/>
+<attvalue id="12" value="Negociant_Importateur_Grossiste"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0"/>
+<attvalue id="18" value="ncs1128"/>
+</attvalues>
+</node>
+<node id="494" label="http://www.vds.asso.fr">
+<viz:color b="0" g="153" r="0"/>
+<viz:position x="45.39117" y="-7.1596756" z="0.0"/>
+<viz:size value="2.0"/>
+<attvalues>
+<attvalue id="0" value="ncs1203"/>
+<attvalue id="1" value="http://www.vds.asso.fr"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="21"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0016187584"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="0"/>
+<attvalue id="11" value="67"/>
+<attvalue id="12" value="Association"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0"/>
+<attvalue id="18" value="ncs1203"/>
+</attvalues>
+</node>
+<node id="495" label="http://www.ypcel.org">
+<viz:color b="0" g="153" r="0"/>
+<viz:position x="15.170361" y="32.226185" z="0.0"/>
+<viz:size value="2.0"/>
+<attvalues>
+<attvalue id="0" value="ncs1204"/>
+<attvalue id="1" value="http://www.ypcel.org"/>
+<attvalue id="2" value="Particulier_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="20"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0075460696"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="0"/>
+<attvalue id="11" value="312"/>
+<attvalue id="12" value="Association"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0"/>
+<attvalue id="18" value="ncs1204"/>
+</attvalues>
+</node>
+<node id="496" label="http://tourisme-solidaire.uniterre.com">
+<viz:color b="0" g="153" r="0"/>
+<viz:position x="37.590355" y="-9.669221" z="0.0"/>
+<viz:size value="2.1536"/>
+<attvalues>
+<attvalue id="0" value="ncs1245"/>
+<attvalue id="1" value="http://tourisme-solidaire.uniterre.com"/>
+<attvalue id="2" value="Particulier_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="5"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="4.6052646E-6"/>
+<attvalue id="7" value="0.009728134"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="79"/>
+<attvalue id="10" value="20"/>
+<attvalue id="11" value="403"/>
+<attvalue id="12" value="Association"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="4.733965E-4"/>
+<attvalue id="18" value="ncs1245"/>
+</attvalues>
+</node>
+<node id="497" label="http://2mains.typepad.com">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="66.08891" y="-74.76275" z="0.0"/>
+<viz:size value="2.0384"/>
+<attvalues>
+<attvalue id="0" value="ncs1246"/>
+<attvalue id="1" value="http://2mains.typepad.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="35"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="7.952207E-10"/>
+<attvalue id="7" value="5.872142E-5"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="1"/>
+<attvalue id="11" value="2"/>
+<attvalue id="12" value="Createur_Marque_Produit_fini"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="1.354226E-5"/>
+<attvalue id="18" value="ncs1246"/>
+</attvalues>
+</node>
+<node id="498" label="http://ombreclaire.com">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="70.50124" y="-82.23566" z="0.0"/>
+<viz:size value="2.0864"/>
+<attvalues>
+<attvalue id="0" value="ncs1248"/>
+<attvalue id="1" value="http://ombreclaire.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="2"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="0"/>
+<attvalue id="11" value="0"/>
+<attvalue id="12" value="Commerce"/>
+<attvalue id="13" value="non"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="3.3048852E-6"/>
+<attvalue id="18" value="ncs1248"/>
+</attvalues>
+</node>
+<node id="499" label="http://www.facteurceleste.blogs.com">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="70.44195" y="-78.25344" z="0.0"/>
+<viz:size value="2.0096"/>
+<attvalues>
+<attvalue id="0" value="ncs1249"/>
+<attvalue id="1" value="http://www.facteurceleste.blogs.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="2"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="3.2475186E-11"/>
+<attvalue id="7" value="1.4400152E-5"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="0"/>
+<attvalue id="11" value="1"/>
+<attvalue id="12" value="Createur_Marque_Produit_fini"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="2.2551974E-6"/>
+<attvalue id="18" value="ncs1249"/>
+</attvalues>
+</node>
+<node id="500" label="http://facteurceleste.blogs.com">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="67.09792" y="-80.27284" z="0.0"/>
+<viz:size value="2.0384"/>
+<attvalues>
+<attvalue id="0" value="ncs1252"/>
+<attvalue id="1" value="http://facteurceleste.blogs.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="2"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="1.9481002E-10"/>
+<attvalue id="7" value="1.2728294E-5"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="1"/>
+<attvalue id="11" value="1"/>
+<attvalue id="12" value="Createur_Marque_Produit_fini"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="1.5305273E-5"/>
+<attvalue id="18" value="ncs1252"/>
+</attvalues>
+</node>
+<node id="501" label="http://www.fuzion.fr">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="-55.17287" y="-35.73805" z="0.0"/>
+<viz:size value="2.0"/>
+<attvalues>
+<attvalue id="0" value="ncs1265"/>
+<attvalue id="1" value="http://www.fuzion.fr"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="2"/>
+<attvalue id="5" value="oui"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="3"/>
+<attvalue id="11" value="0"/>
+<attvalue id="12" value="Negociant_Importateur_Grossiste"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="7.441846E-5"/>
+<attvalue id="18" value="ncs1265"/>
+</attvalues>
+</node>
+<node id="502" label="http://passeurdetalents.free.fr">
+<viz:color b="102" g="102" r="102"/>
+<viz:position x="-71.49027" y="-9.200791" z="0.0"/>
+<viz:size value="2.0"/>
+<attvalues>
+<attvalue id="0" value="ncs1286"/>
+<attvalue id="1" value="http://passeurdetalents.free.fr"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="3"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="0"/>
+<attvalue id="11" value="0"/>
+<attvalue id="12" value="report"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0"/>
+<attvalue id="18" value="ncs1286"/>
+</attvalues>
+</node>
+<node id="503" label="http://www.hcci.gouv.fr">
+<viz:color b="102" g="102" r="102"/>
+<viz:position x="18.41735" y="43.390926" z="0.0"/>
+<viz:size value="2.0096"/>
+<attvalues>
+<attvalue id="0" value="ncs1327"/>
+<attvalue id="1" value="http://www.hcci.gouv.fr"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="8"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="1.813359E-4"/>
+<attvalue id="7" value="0.03945134"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="3108"/>
+<attvalue id="10" value="190"/>
+<attvalue id="11" value="1633"/>
+<attvalue id="12" value="report"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.004596445"/>
+<attvalue id="18" value="ncs1327"/>
+</attvalues>
+</node>
+<node id="504" label="http://www.alsoldemexico.com">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="45.523006" y="-27.016273" z="0.0"/>
+<viz:size value="2.0096"/>
+<attvalues>
+<attvalue id="0" value="ncs2177"/>
+<attvalue id="1" value="http://www.alsoldemexico.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="4"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="16"/>
+<attvalue id="11" value="0"/>
+<attvalue id="12" value="Commerce"/>
+<attvalue id="13" value="non"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="3.8456504E-4"/>
+<attvalue id="18" value="ncs2177"/>
+</attvalues>
+</node>
+<node id="505" label="http://www.alter-presse.com">
+<viz:color b="0" g="153" r="255"/>
+<viz:position x="1.1055632" y="17.335321" z="0.0"/>
+<viz:size value="2.0"/>
+<attvalues>
+<attvalue id="0" value="ncs2203"/>
+<attvalue id="1" value="http://www.alter-presse.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="3"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0014679306"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="0"/>
+<attvalue id="11" value="61"/>
+<attvalue id="12" value="Presse_Radio_Television"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0"/>
+<attvalue id="18" value="ncs2203"/>
+</attvalues>
+</node>
+<node id="506" label="http://www.facverte.org">
+<viz:color b="102" g="102" r="102"/>
+<viz:position x="43.675632" y="-30.692286" z="0.0"/>
+<viz:size value="2.0096"/>
+<attvalues>
+<attvalue id="0" value="ncs2224"/>
+<attvalue id="1" value="http://www.facverte.org"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="7"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="4"/>
+<attvalue id="11" value="0"/>
+<attvalue id="12" value="report"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="1.0762797E-4"/>
+<attvalue id="18" value="ncs2224"/>
+</attvalues>
+</node>
+<node id="507" label="http://www.altheane.com">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="-59.301327" y="-9.671827" z="0.0"/>
+<viz:size value="2.0"/>
+<attvalues>
+<attvalue id="0" value="ncs2239"/>
+<attvalue id="1" value="http://www.altheane.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="3"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="0"/>
+<attvalue id="11" value="0"/>
+<attvalue id="12" value="Createur_Marque_Produit_fini"/>
+<attvalue id="13" value="non"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0"/>
+<attvalue id="18" value="ncs2239"/>
+</attvalues>
+</node>
+<node id="508" label="http://paris13.artisansdumonde.org">
+<viz:color b="0" g="153" r="0"/>
+<viz:position x="-7.492339" y="48.59447" z="0.0"/>
+<viz:size value="2.0096"/>
+<attvalues>
+<attvalue id="0" value="ncs2494"/>
+<attvalue id="1" value="http://paris13.artisansdumonde.org"/>
+<attvalue id="2" value="Particulier_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="2"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="4.683077E-7"/>
+<attvalue id="7" value="0.0018764725"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="8"/>
+<attvalue id="10" value="10"/>
+<attvalue id="11" value="78"/>
+<attvalue id="12" value="Association"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="2.495681E-4"/>
+<attvalue id="18" value="ncs2494"/>
+</attvalues>
+</node>
+<node id="509" label="http://www.solidaroad.org">
+<viz:color b="0" g="153" r="0"/>
+<viz:position x="10.916851" y="3.6749544" z="0.0"/>
+<viz:size value="2.0864"/>
+<attvalues>
+<attvalue id="0" value="ncs2501"/>
+<attvalue id="1" value="http://www.solidaroad.org"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="8"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="1.182245E-5"/>
+<attvalue id="7" value="0.012374737"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="203"/>
+<attvalue id="10" value="40"/>
+<attvalue id="11" value="512"/>
+<attvalue id="12" value="Association"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="9.5536973E-4"/>
+<attvalue id="18" value="ncs2501"/>
+</attvalues>
+</node>
+<node id="510" label="http://artisansparis9.over-blog.com">
+<viz:color b="102" g="102" r="102"/>
+<viz:position x="-11.236106" y="29.629587" z="0.0"/>
+<viz:size value="2.0"/>
+<attvalues>
+<attvalue id="0" value="ncs2508"/>
+<attvalue id="1" value="http://artisansparis9.over-blog.com"/>
+<attvalue id="2" value="Collectif_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="7"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0062568537"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="0"/>
+<attvalue id="11" value="259"/>
+<attvalue id="12" value="report"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0"/>
+<attvalue id="18" value="ncs2508"/>
+</attvalues>
+</node>
+<node id="511" label="http://paris15.artisansdumonde.org">
+<viz:color b="0" g="153" r="0"/>
+<viz:position x="-10.907567" y="46.950092" z="0.0"/>
+<viz:size value="2.0096"/>
+<attvalues>
+<attvalue id="0" value="ncs2515"/>
+<attvalue id="1" value="http://paris15.artisansdumonde.org"/>
+<attvalue id="2" value="Particulier_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="2"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="4.683077E-7"/>
+<attvalue id="7" value="0.0018764725"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="8"/>
+<attvalue id="10" value="10"/>
+<attvalue id="11" value="78"/>
+<attvalue id="12" value="Association"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="2.495681E-4"/>
+<attvalue id="18" value="ncs2515"/>
+</attvalues>
+</node>
+<node id="512" label="http://paris11-20.artisansdumonde.org">
+<viz:color b="0" g="153" r="0"/>
+<viz:position x="-9.24201" y="44.010197" z="0.0"/>
+<viz:size value="2.0"/>
+<attvalues>
+<attvalue id="0" value="ncs2516"/>
+<attvalue id="1" value="http://paris11-20.artisansdumonde.org"/>
+<attvalue id="2" value="Particulier_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="2"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0018764725"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="0"/>
+<attvalue id="11" value="78"/>
+<attvalue id="12" value="Association"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0"/>
+<attvalue id="18" value="ncs2516"/>
+</attvalues>
+</node>
+<node id="513" label="http://clamart.artisansdumonde.org">
+<viz:color b="0" g="153" r="0"/>
+<viz:position x="0.8874989" y="44.87501" z="0.0"/>
+<viz:size value="2.0"/>
+<attvalues>
+<attvalue id="0" value="ncs2517"/>
+<attvalue id="1" value="http://clamart.artisansdumonde.org"/>
+<attvalue id="2" value="Particulier_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="2"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.003518705"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="0"/>
+<attvalue id="11" value="146"/>
+<attvalue id="12" value="Association"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0"/>
+<attvalue id="18" value="ncs2517"/>
+</attvalues>
+</node>
+<node id="514" label="http://www.lagerbe.org">
+<viz:color b="0" g="153" r="0"/>
+<viz:position x="1.7013718" y="22.195553" z="0.0"/>
+<viz:size value="2.0"/>
+<attvalues>
+<attvalue id="0" value="ncs2607"/>
+<attvalue id="1" value="http://www.lagerbe.org"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="7"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0034951735"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="0"/>
+<attvalue id="11" value="145"/>
+<attvalue id="12" value="Association"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0"/>
+<attvalue id="18" value="ncs2607"/>
+</attvalues>
+</node>
+<node id="515" label="http://www.leolagrange-conso.org">
+<viz:color b="0" g="153" r="0"/>
+<viz:position x="14.5054455" y="58.904354" z="0.0"/>
+<viz:size value="2.0"/>
+<attvalues>
+<attvalue id="0" value="ncs2616"/>
+<attvalue id="1" value="http://www.leolagrange-conso.org"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="5"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="7.428859E-7"/>
+<attvalue id="7" value="0.0013142651"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="13"/>
+<attvalue id="10" value="23"/>
+<attvalue id="11" value="54"/>
+<attvalue id="12" value="Association"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="5.6524813E-4"/>
+<attvalue id="18" value="ncs2616"/>
+</attvalues>
+</node>
+<node id="516" label="http://epiceries.solidaires.free.fr">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="-69.39565" y="11.179357" z="0.0"/>
+<viz:size value="2.0"/>
+<attvalues>
+<attvalue id="0" value="ncs2618"/>
+<attvalue id="1" value="http://epiceries.solidaires.free.fr"/>
+<attvalue id="2" value="Collectif_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="8"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="1.64595E-4"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="0"/>
+<attvalue id="11" value="7"/>
+<attvalue id="12" value="Commerce"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0"/>
+<attvalue id="18" value="ncs2618"/>
+</attvalues>
+</node>
+<node id="517" label="http://www.audeladesfrontieres.com">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="-55.16919" y="-30.322205" z="0.0"/>
+<viz:size value="2.0"/>
+<attvalues>
+<attvalue id="0" value="ncs2633"/>
+<attvalue id="1" value="http://www.audeladesfrontieres.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="8"/>
+<attvalue id="5" value="oui"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="6.518002E-4"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="0"/>
+<attvalue id="11" value="27"/>
+<attvalue id="12" value="Commerce"/>
+<attvalue id="13" value="non"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0"/>
+<attvalue id="18" value="ncs2633"/>
+</attvalues>
+</node>
+<node id="518" label="http://www.avise.org">
+<viz:color b="102" g="102" r="102"/>
+<viz:position x="36.32146" y="32.99239" z="0.0"/>
+<viz:size value="2.0096"/>
+<attvalues>
+<attvalue id="0" value="ncs2636"/>
+<attvalue id="1" value="http://www.avise.org"/>
+<attvalue id="2" value="Collectif_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="18"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="2.3469183E-6"/>
+<attvalue id="7" value="0.041808676"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="40"/>
+<attvalue id="10" value="2"/>
+<attvalue id="11" value="1731"/>
+<attvalue id="12" value="Type_mixte"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="5.6134722E-5"/>
+<attvalue id="18" value="ncs2636"/>
+</attvalues>
+</node>
+<node id="519" label="http://www.leolagrange-fnll.org">
+<viz:color b="0" g="153" r="0"/>
+<viz:position x="13.087697" y="38.28903" z="0.0"/>
+<viz:size value="2.0096"/>
+<attvalues>
+<attvalue id="0" value="ncs2663"/>
+<attvalue id="1" value="http://www.leolagrange-fnll.org"/>
+<attvalue id="2" value="Collectif_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="9"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="3.1851723E-5"/>
+<attvalue id="7" value="0.009822471"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="546"/>
+<attvalue id="10" value="134"/>
+<attvalue id="11" value="407"/>
+<attvalue id="12" value="Association"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0032427402"/>
+<attvalue id="18" value="ncs2663"/>
+</attvalues>
+</node>
+<node id="520" label="http://www.bayadere.com">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="-68.56923" y="-18.874361" z="0.0"/>
+<viz:size value="2.0"/>
+<attvalues>
+<attvalue id="0" value="ncs3072"/>
+<attvalue id="1" value="http://www.bayadere.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="6"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="0"/>
+<attvalue id="11" value="0"/>
+<attvalue id="12" value="Createur_Marque_Produit_fini"/>
+<attvalue id="13" value="non"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0"/>
+<attvalue id="18" value="ncs3072"/>
+</attvalues>
+</node>
+<node id="521" label="http://www.bioequitable.typepad.com">
+<viz:color b="102" g="102" r="102"/>
+<viz:position x="-30.426361" y="-44.919773" z="0.0"/>
+<viz:size value="2.0096"/>
+<attvalues>
+<attvalue id="0" value="ncs3087"/>
+<attvalue id="1" value="http://www.bioequitable.typepad.com"/>
+<attvalue id="2" value="Collectif_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="2"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="5.8414155E-8"/>
+<attvalue id="7" value="0.0010594828"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="1"/>
+<attvalue id="10" value="2"/>
+<attvalue id="11" value="44"/>
+<attvalue id="12" value="Type_mixte"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="5.5134595E-5"/>
+<attvalue id="18" value="ncs3087"/>
+</attvalues>
+</node>
+<node id="522" label="http://www.sable-vert.fr">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="-22.771772" y="-42.496128" z="0.0"/>
+<viz:size value="2.0384"/>
+<attvalues>
+<attvalue id="0" value="ncs3095"/>
+<attvalue id="1" value="http://www.sable-vert.fr"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="4"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="2.8080528E-8"/>
+<attvalue id="7" value="2.9306547E-4"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="4"/>
+<attvalue id="11" value="12"/>
+<attvalue id="12" value="Negociant_Importateur_Grossiste"/>
+<attvalue id="13" value="non"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="9.581657E-5"/>
+<attvalue id="18" value="ncs3095"/>
+</attvalues>
+</node>
+<node id="523" label="http://www.biocoton.com">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="-30.607233" y="-51.160416" z="0.0"/>
+<viz:size value="2.0864"/>
+<attvalues>
+<attvalue id="0" value="ncs3096"/>
+<attvalue id="1" value="http://www.biocoton.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="6"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="1.318306E-9"/>
+<attvalue id="7" value="1.2965023E-5"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="4"/>
+<attvalue id="11" value="1"/>
+<attvalue id="12" value="Negociant_Importateur_Grossiste"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="1.0168173E-4"/>
+<attvalue id="18" value="ncs3096"/>
+</attvalues>
+</node>
+<node id="524" label="http://www.fonio-bio.com">
+<viz:color b="102" g="102" r="102"/>
+<viz:position x="-35.990067" y="-44.880013" z="0.0"/>
+<viz:size value="2.0384"/>
+<attvalues>
+<attvalue id="0" value="ncs3097"/>
+<attvalue id="1" value="http://www.fonio-bio.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="5"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="6.1650006E-8"/>
+<attvalue id="7" value="6.4341695E-4"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="1"/>
+<attvalue id="10" value="4"/>
+<attvalue id="11" value="27"/>
+<attvalue id="12" value="Type_mixte"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="9.581657E-5"/>
+<attvalue id="18" value="ncs3097"/>
+</attvalues>
+</node>
+<node id="525" label="http://www.kaoka.fr">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="-34.39366" y="-40.741714" z="0.0"/>
+<viz:size value="2.0384"/>
+<attvalues>
+<attvalue id="0" value="ncs3098"/>
+<attvalue id="1" value="http://www.kaoka.fr"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="3"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="4"/>
+<attvalue id="11" value="0"/>
+<attvalue id="12" value="Createur_Marque_Produit_fini"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="9.581657E-5"/>
+<attvalue id="18" value="ncs3098"/>
+</attvalues>
+</node>
+<node id="526" label="http://www.euro-nat.com">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="-26.629992" y="-49.109993" z="0.0"/>
+<viz:size value="2.0864"/>
+<attvalues>
+<attvalue id="0" value="ncs3102"/>
+<attvalue id="1" value="http://www.euro-nat.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="5"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="1.870436E-8"/>
+<attvalue id="7" value="1.5289654E-4"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="5"/>
+<attvalue id="11" value="6"/>
+<attvalue id="12" value="Negociant_Importateur_Grossiste"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="1.2233345E-4"/>
+<attvalue id="18" value="ncs3102"/>
+</attvalues>
+</node>
+<node id="527" label="http://www.bouticethic.com">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="11.623519" y="-12.629743" z="0.0"/>
+<viz:size value="2.0864"/>
+<attvalues>
+<attvalue id="0" value="ncs3107"/>
+<attvalue id="1" value="http://www.bouticethic.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="8"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="1.9293552E-6"/>
+<attvalue id="7" value="0.0014238722"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="33"/>
+<attvalue id="10" value="56"/>
+<attvalue id="11" value="59"/>
+<attvalue id="12" value="Commerce"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0013550059"/>
+<attvalue id="18" value="ncs3107"/>
+</attvalues>
+</node>
+<node id="528" label="http://catalogue2002.free.fr">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="9.081606" y="-16.780863" z="0.0"/>
+<viz:size value="2.0096"/>
+<attvalues>
+<attvalue id="0" value="ncs3108"/>
+<attvalue id="1" value="http://catalogue2002.free.fr"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="4"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="7.7226945E-9"/>
+<attvalue id="7" value="1.4132119E-4"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="2"/>
+<attvalue id="11" value="6"/>
+<attvalue id="12" value="Commerce"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="5.46464E-5"/>
+<attvalue id="18" value="ncs3108"/>
+</attvalues>
+</node>
+<node id="529" label="http://www.boutique-equitable.org">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="13.677664" y="27.163662" z="0.0"/>
+<viz:size value="2.0"/>
+<attvalues>
+<attvalue id="0" value="ncs3109"/>
+<attvalue id="1" value="http://www.boutique-equitable.org"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="5"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0025889482"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="0"/>
+<attvalue id="11" value="107"/>
+<attvalue id="12" value="Commerce"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0"/>
+<attvalue id="18" value="ncs3109"/>
+</attvalues>
+</node>
+<node id="530" label="http://www.coolmums.com">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="-61.434017" y="-32.971657" z="0.0"/>
+<viz:size value="2.0"/>
+<attvalues>
+<attvalue id="0" value="ncs3339"/>
+<attvalue id="1" value="http://www.coolmums.com"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="5"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="0"/>
+<attvalue id="11" value="0"/>
+<attvalue id="12" value="Createur_Marque_Produit_fini"/>
+<attvalue id="13" value="non"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0"/>
+<attvalue id="18" value="ncs3339"/>
+</attvalues>
+</node>
+<node id="531" label="http://www.ekobo.org">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="-62.60804" y="-18.970577" z="0.0"/>
+<viz:size value="2.0"/>
+<attvalues>
+<attvalue id="0" value="ncs3481"/>
+<attvalue id="1" value="http://www.ekobo.org"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="3"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="0"/>
+<attvalue id="11" value="0"/>
+<attvalue id="12" value="Createur_Marque_Produit_fini"/>
+<attvalue id="13" value="non"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0"/>
+<attvalue id="18" value="ncs3481"/>
+</attvalues>
+</node>
+<node id="532" label="http://www.quinzaine-commerce-equitable.com">
+<viz:color b="102" g="102" r="102"/>
+<viz:position x="46.01288" y="10.737918" z="0.0"/>
+<viz:size value="2.0096"/>
+<attvalues>
+<attvalue id="0" value="ncs3593"/>
+<attvalue id="1" value="http://www.quinzaine-commerce-equitable.com"/>
+<attvalue id="2" value="report"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="10"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="9.211426E-10"/>
+<attvalue id="7" value="1.8365245E-5"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="2"/>
+<attvalue id="11" value="1"/>
+<attvalue id="12" value="report"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="5.015684E-5"/>
+<attvalue id="18" value="ncs3593"/>
+</attvalues>
+</node>
+<node id="533" label="http://www.clace.info">
+<viz:color b="102" g="102" r="102"/>
+<viz:position x="40.990124" y="10.37639" z="0.0"/>
+<viz:size value="2.0096"/>
+<attvalues>
+<attvalue id="0" value="ncs3594"/>
+<attvalue id="1" value="http://www.clace.info"/>
+<attvalue id="2" value="Collectif_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="8"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="9.205265E-10"/>
+<attvalue id="7" value="0.0013047106"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="0"/>
+<attvalue id="11" value="54"/>
+<attvalue id="12" value="Type_mixte"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="7.0554074E-7"/>
+<attvalue id="18" value="ncs3594"/>
+</attvalues>
+</node>
+<node id="534" label="http://www.equitel.fr">
+<viz:color b="102" g="102" r="102"/>
+<viz:position x="-63.421574" y="9.290911" z="0.0"/>
+<viz:size value="2.0"/>
+<attvalues>
+<attvalue id="0" value="ncs3602"/>
+<attvalue id="1" value="http://www.equitel.fr"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="10"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0051526953"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="0"/>
+<attvalue id="11" value="213"/>
+<attvalue id="12" value="report"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0"/>
+<attvalue id="18" value="ncs3602"/>
+</attvalues>
+</node>
+<node id="535" label="http://www.femmes-actives.org">
+<viz:color b="102" g="102" r="102"/>
+<viz:position x="52.0169" y="33.48642" z="0.0"/>
+<viz:size value="2.0"/>
+<attvalues>
+<attvalue id="0" value="ncs3713"/>
+<attvalue id="1" value="http://www.femmes-actives.org"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="9"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="1.8834413E-7"/>
+<attvalue id="7" value="0.0015559477"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="3"/>
+<attvalue id="10" value="5"/>
+<attvalue id="11" value="64"/>
+<attvalue id="12" value="report"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="1.2104785E-4"/>
+<attvalue id="18" value="ncs3713"/>
+</attvalues>
+</node>
+<node id="536" label="http://www.fibris.fr">
+<viz:color b="255" g="102" r="153"/>
+<viz:position x="-55.369072" y="-42.22391" z="0.0"/>
+<viz:size value="2.0"/>
+<attvalues>
+<attvalue id="0" value="ncs3719"/>
+<attvalue id="1" value="http://www.fibris.fr"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="2"/>
+<attvalue id="5" value="oui"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="1"/>
+<attvalue id="11" value="0"/>
+<attvalue id="12" value="Createur_Marque_Produit_fini"/>
+<attvalue id="13" value="non"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="1.7962364E-5"/>
+<attvalue id="18" value="ncs3719"/>
+</attvalues>
+</node>
+<node id="537" label="http://laroutedessens.free.fr">
+<viz:color b="0" g="153" r="0"/>
+<viz:position x="-65.3701" y="-29.552158" z="0.0"/>
+<viz:size value="2.0"/>
+<attvalues>
+<attvalue id="0" value="ncs3817"/>
+<attvalue id="1" value="http://laroutedessens.free.fr"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="3"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="0"/>
+<attvalue id="11" value="0"/>
+<attvalue id="12" value="Association"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="0.0"/>
+<attvalue id="18" value="ncs3817"/>
+</attvalues>
+</node>
+<node id="538" label="http://lagerbe.org">
+<viz:color b="0" g="153" r="0"/>
+<viz:position x="-1.8489537" y="24.525019" z="0.0"/>
+<viz:size value="2.0096"/>
+<attvalues>
+<attvalue id="0" value="ncs3884"/>
+<attvalue id="1" value="http://lagerbe.org"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="4"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0"/>
+<attvalue id="8" value="non-classe"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="6"/>
+<attvalue id="11" value="0"/>
+<attvalue id="12" value="Association"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="1.3436575E-4"/>
+<attvalue id="18" value="ncs3884"/>
+</attvalues>
+</node>
+<node id="539" label="http://jardinsdugulmu.free.fr">
+<viz:color b="102" g="102" r="102"/>
+<viz:position x="-65.32206" y="-1.2678746" z="0.0"/>
+<viz:size value="2.0"/>
+<attvalues>
+<attvalue id="0" value="ncs4613"/>
+<attvalue id="1" value="http://jardinsdugulmu.free.fr"/>
+<attvalue id="2" value="Complet_p_s_"/>
+<attvalue id="3" value="oui"/>
+<attvalue id="4" value="2"/>
+<attvalue id="5" value="non"/>
+<attvalue id="6" value="0.0"/>
+<attvalue id="7" value="0.0"/>
+<attvalue id="8" value="oui"/>
+<attvalue id="9" value="0"/>
+<attvalue id="10" value="5"/>
+<attvalue id="11" value="0"/>
+<attvalue id="12" value="non-classe"/>
+<attvalue id="13" value="oui"/>
+<attvalue id="14" value="0"/>
+<attvalue id="15" value="non"/>
+<attvalue id="16" value="visite"/>
+<attvalue id="17" value="1.2104785E-4"/>
+<attvalue id="18" value="ncs4613"/>
+</attvalues>
+</node>
+</nodes>
+<edges>
+<edge id="760" source="402" target="403"/>
+<edge id="761" source="404" target="405"/>
+<edge id="762" source="404" target="406"/>
+<edge id="763" source="404" target="407"/>
+<edge id="764" source="404" target="408"/>
+<edge id="765" source="404" target="409"/>
+<edge id="766" source="404" target="410"/>
+<edge id="767" source="404" target="480"/>
+<edge id="768" source="405" target="408"/>
+<edge id="769" source="405" target="443"/>
+<edge id="770" source="405" target="406"/>
+<edge id="771" source="405" target="445"/>
+<edge id="772" source="405" target="428"/>
+<edge id="773" source="406" target="438"/>
+<edge id="774" source="406" target="403"/>
+<edge id="775" source="406" target="432"/>
+<edge id="776" source="406" target="496"/>
+<edge id="777" source="406" target="490"/>
+<edge id="778" source="406" target="418"/>
+<edge id="779" source="406" target="422"/>
+<edge id="780" source="406" target="405"/>
+<edge id="781" source="406" target="419"/>
+<edge id="782" source="406" target="464"/>
+<edge id="783" source="406" target="465"/>
+<edge id="784" source="406" target="443"/>
+<edge id="785" source="406" target="409"/>
+<edge id="786" source="407" target="409"/>
+<edge id="787" source="407" target="410"/>
+<edge id="788" source="407" target="439"/>
+<edge id="789" source="408" target="412"/>
+<edge id="790" source="408" target="405"/>
+<edge id="791" source="410" target="452"/>
+<edge id="792" source="410" target="496"/>
+<edge id="793" source="411" target="412"/>
+<edge id="794" source="412" target="464"/>
+<edge id="795" source="412" target="405"/>
+<edge id="796" source="412" target="465"/>
+<edge id="797" source="412" target="466"/>
+<edge id="798" source="412" target="467"/>
+<edge id="799" source="412" target="468"/>
+<edge id="800" source="412" target="436"/>
+<edge id="801" source="413" target="418"/>
+<edge id="802" source="413" target="403"/>
+<edge id="803" source="413" target="427"/>
+<edge id="804" source="414" target="408"/>
+<edge id="805" source="414" target="415"/>
+<edge id="806" source="415" target="403"/>
+<edge id="807" source="415" target="418"/>
+<edge id="808" source="415" target="482"/>
+<edge id="809" source="415" target="480"/>
+<edge id="810" source="415" target="414"/>
+<edge id="811" source="415" target="492"/>
+<edge id="812" source="415" target="419"/>
+<edge id="813" source="415" target="420"/>
+<edge id="814" source="416" target="420"/>
+<edge id="815" source="417" target="440"/>
+<edge id="816" source="417" target="403"/>
+<edge id="817" source="417" target="420"/>
+<edge id="818" source="417" target="509"/>
+<edge id="819" source="417" target="472"/>
+<edge id="820" source="417" target="430"/>
+<edge id="821" source="417" target="508"/>
+<edge id="822" source="417" target="511"/>
+<edge id="823" source="417" target="488"/>
+<edge id="824" source="418" target="441"/>
+<edge id="825" source="418" target="451"/>
+<edge id="826" source="418" target="452"/>
+<edge id="827" source="418" target="445"/>
+<edge id="828" source="418" target="443"/>
+<edge id="829" source="418" target="453"/>
+<edge id="830" source="418" target="454"/>
+<edge id="831" source="418" target="455"/>
+<edge id="832" source="418" target="403"/>
+<edge id="833" source="419" target="452"/>
+<edge id="834" source="419" target="420"/>
+<edge id="835" source="419" target="403"/>
+<edge id="836" source="421" target="492"/>
+<edge id="837" source="421" target="403"/>
+<edge id="838" source="422" target="403"/>
+<edge id="839" source="422" target="427"/>
+<edge id="840" source="422" target="415"/>
+<edge id="841" source="422" target="504"/>
+<edge id="842" source="422" target="451"/>
+<edge id="843" source="422" target="404"/>
+<edge id="844" source="422" target="407"/>
+<edge id="845" source="422" target="488"/>
+<edge id="846" source="422" target="464"/>
+<edge id="847" source="422" target="405"/>
+<edge id="848" source="422" target="417"/>
+<edge id="849" source="422" target="418"/>
+<edge id="850" source="422" target="406"/>
+<edge id="851" source="422" target="419"/>
+<edge id="852" source="422" target="452"/>
+<edge id="853" source="422" target="509"/>
+<edge id="854" source="423" target="426"/>
+<edge id="855" source="423" target="472"/>
+<edge id="856" source="424" target="413"/>
+<edge id="857" source="425" target="417"/>
+<edge id="858" source="425" target="403"/>
+<edge id="859" source="425" target="419"/>
+<edge id="860" source="425" target="412"/>
+<edge id="861" source="425" target="426"/>
+<edge id="862" source="425" target="427"/>
+<edge id="863" source="425" target="428"/>
+<edge id="864" source="425" target="429"/>
+<edge id="865" source="425" target="430"/>
+<edge id="866" source="425" target="431"/>
+<edge id="867" source="425" target="418"/>
+<edge id="868" source="425" target="432"/>
+<edge id="869" source="425" target="433"/>
+<edge id="870" source="426" target="481"/>
+<edge id="871" source="426" target="423"/>
+<edge id="872" source="426" target="432"/>
+<edge id="873" source="427" target="433"/>
+<edge id="874" source="427" target="473"/>
+<edge id="875" source="428" target="433"/>
+<edge id="876" source="428" target="461"/>
+<edge id="877" source="428" target="425"/>
+<edge id="878" source="428" target="412"/>
+<edge id="879" source="428" target="464"/>
+<edge id="880" source="430" target="471"/>
+<edge id="881" source="431" target="521"/>
+<edge id="882" source="431" target="475"/>
+<edge id="883" source="431" target="435"/>
+<edge id="884" source="431" target="403"/>
+<edge id="885" source="431" target="523"/>
+<edge id="886" source="431" target="526"/>
+<edge id="887" source="431" target="524"/>
+<edge id="888" source="431" target="525"/>
+<edge id="889" source="431" target="522"/>
+<edge id="890" source="432" target="426"/>
+<edge id="891" source="436" target="437"/>
+<edge id="892" source="438" target="410"/>
+<edge id="893" source="438" target="408"/>
+<edge id="894" source="438" target="419"/>
+<edge id="895" source="438" target="406"/>
+<edge id="896" source="438" target="428"/>
+<edge id="897" source="439" target="443"/>
+<edge id="898" source="441" target="419"/>
+<edge id="899" source="441" target="423"/>
+<edge id="900" source="441" target="482"/>
+<edge id="901" source="441" target="503"/>
+<edge id="902" source="441" target="418"/>
+<edge id="903" source="441" target="471"/>
+<edge id="904" source="441" target="416"/>
+<edge id="905" source="441" target="478"/>
+<edge id="906" source="443" target="444"/>
+<edge id="907" source="444" target="435"/>
+<edge id="908" source="445" target="429"/>
+<edge id="909" source="445" target="428"/>
+<edge id="910" source="447" target="413"/>
+<edge id="911" source="451" target="483"/>
+<edge id="912" source="452" target="444"/>
+<edge id="913" source="452" target="410"/>
+<edge id="914" source="452" target="441"/>
+<edge id="915" source="452" target="438"/>
+<edge id="916" source="452" target="506"/>
+<edge id="917" source="452" target="422"/>
+<edge id="918" source="453" target="418"/>
+<edge id="919" source="453" target="475"/>
+<edge id="920" source="453" target="444"/>
+<edge id="921" source="454" target="473"/>
+<edge id="922" source="454" target="418"/>
+<edge id="923" source="454" target="403"/>
+<edge id="924" source="454" target="428"/>
+<edge id="925" source="458" target="460"/>
+<edge id="926" source="458" target="461"/>
+<edge id="927" source="458" target="417"/>
+<edge id="928" source="458" target="462"/>
+<edge id="929" source="458" target="463"/>
+<edge id="930" source="460" target="461"/>
+<edge id="931" source="460" target="458"/>
+<edge id="932" source="460" target="462"/>
+<edge id="933" source="461" target="421"/>
+<edge id="934" source="461" target="426"/>
+<edge id="935" source="462" target="481"/>
+<edge id="936" source="462" target="416"/>
+<edge id="937" source="462" target="472"/>
+<edge id="938" source="462" target="417"/>
+<edge id="939" source="462" target="423"/>
+<edge id="940" source="462" target="418"/>
+<edge id="941" source="462" target="430"/>
+<edge id="942" source="462" target="433"/>
+<edge id="943" source="462" target="440"/>
+<edge id="944" source="464" target="467"/>
+<edge id="945" source="464" target="412"/>
+<edge id="946" source="465" target="412"/>
+<edge id="947" source="465" target="403"/>
+<edge id="948" source="465" target="496"/>
+<edge id="949" source="465" target="432"/>
+<edge id="950" source="465" target="430"/>
+<edge id="951" source="466" target="464"/>
+<edge id="952" source="466" target="417"/>
+<edge id="953" source="466" target="488"/>
+<edge id="954" source="466" target="430"/>
+<edge id="955" source="466" target="403"/>
+<edge id="956" source="466" target="472"/>
+<edge id="957" source="466" target="467"/>
+<edge id="958" source="466" target="420"/>
+<edge id="959" source="466" target="412"/>
+<edge id="960" source="466" target="468"/>
+<edge id="961" source="468" target="464"/>
+<edge id="962" source="468" target="412"/>
+<edge id="963" source="472" target="462"/>
+<edge id="964" source="472" target="417"/>
+<edge id="965" source="472" target="423"/>
+<edge id="966" source="472" target="433"/>
+<edge id="967" source="473" target="429"/>
+<edge id="968" source="475" target="435"/>
+<edge id="969" source="475" target="418"/>
+<edge id="970" source="475" target="403"/>
+<edge id="971" source="475" target="417"/>
+<edge id="972" source="475" target="419"/>
+<edge id="973" source="476" target="418"/>
+<edge id="974" source="476" target="403"/>
+<edge id="975" source="476" target="420"/>
+<edge id="976" source="476" target="417"/>
+<edge id="977" source="476" target="471"/>
+<edge id="978" source="476" target="419"/>
+<edge id="979" source="476" target="482"/>
+<edge id="980" source="477" target="407"/>
+<edge id="981" source="477" target="480"/>
+<edge id="982" source="477" target="432"/>
+<edge id="983" source="481" target="426"/>
+<edge id="984" source="481" target="462"/>
+<edge id="985" source="482" target="418"/>
+<edge id="986" source="482" target="441"/>
+<edge id="987" source="482" target="461"/>
+<edge id="988" source="482" target="509"/>
+<edge id="989" source="482" target="445"/>
+<edge id="990" source="482" target="443"/>
+<edge id="991" source="482" target="425"/>
+<edge id="992" source="482" target="485"/>
+<edge id="993" source="482" target="403"/>
+<edge id="994" source="482" target="420"/>
+<edge id="995" source="482" target="415"/>
+<edge id="996" source="482" target="527"/>
+<edge id="997" source="483" target="451"/>
+<edge id="998" source="484" target="440"/>
+<edge id="999" source="484" target="427"/>
+<edge id="1000" source="484" target="416"/>
+<edge id="1001" source="484" target="412"/>
+<edge id="1002" source="485" target="518"/>
+<edge id="1003" source="486" target="418"/>
+<edge id="1004" source="486" target="426"/>
+<edge id="1005" source="486" target="485"/>
+<edge id="1006" source="492" target="421"/>
+<edge id="1007" source="494" target="496"/>
+<edge id="1008" source="494" target="478"/>
+<edge id="1009" source="495" target="418"/>
+<edge id="1010" source="495" target="417"/>
+<edge id="1011" source="495" target="403"/>
+<edge id="1012" source="495" target="471"/>
+<edge id="1013" source="495" target="423"/>
+<edge id="1014" source="496" target="445"/>
+<edge id="1015" source="496" target="418"/>
+<edge id="1016" source="497" target="498"/>
+<edge id="1017" source="497" target="499"/>
+<edge id="1018" source="497" target="407"/>
+<edge id="1019" source="497" target="500"/>
+<edge id="1020" source="497" target="470"/>
+<edge id="1021" source="499" target="500"/>
+<edge id="1022" source="499" target="497"/>
+<edge id="1023" source="499" target="498"/>
+<edge id="1024" source="500" target="497"/>
+<edge id="1025" source="500" target="498"/>
+<edge id="1026" source="503" target="423"/>
+<edge id="1027" source="503" target="474"/>
+<edge id="1028" source="503" target="441"/>
+<edge id="1029" source="503" target="472"/>
+<edge id="1030" source="503" target="403"/>
+<edge id="1031" source="503" target="430"/>
+<edge id="1032" source="503" target="462"/>
+<edge id="1033" source="503" target="416"/>
+<edge id="1034" source="505" target="403"/>
+<edge id="1035" source="508" target="417"/>
+<edge id="1036" source="509" target="418"/>
+<edge id="1037" source="509" target="405"/>
+<edge id="1038" source="509" target="464"/>
+<edge id="1039" source="509" target="527"/>
+<edge id="1040" source="509" target="406"/>
+<edge id="1041" source="509" target="403"/>
+<edge id="1042" source="509" target="417"/>
+<edge id="1043" source="509" target="420"/>
+<edge id="1044" source="509" target="462"/>
+<edge id="1045" source="509" target="422"/>
+<edge id="1046" source="509" target="421"/>
+<edge id="1047" source="509" target="465"/>
+<edge id="1048" source="510" target="417"/>
+<edge id="1049" source="510" target="403"/>
+<edge id="1050" source="510" target="416"/>
+<edge id="1051" source="510" target="420"/>
+<edge id="1052" source="510" target="488"/>
+<edge id="1053" source="510" target="437"/>
+<edge id="1054" source="510" target="402"/>
+<edge id="1055" source="510" target="425"/>
+<edge id="1056" source="511" target="417"/>
+<edge id="1057" source="512" target="417"/>
+<edge id="1058" source="513" target="417"/>
+<edge id="1059" source="513" target="416"/>
+<edge id="1060" source="514" target="484"/>
+<edge id="1061" source="514" target="418"/>
+<edge id="1062" source="514" target="538"/>
+<edge id="1063" source="515" target="462"/>
+<edge id="1064" source="518" target="519"/>
+<edge id="1065" source="518" target="426"/>
+<edge id="1066" source="518" target="432"/>
+<edge id="1067" source="518" target="419"/>
+<edge id="1068" source="518" target="415"/>
+<edge id="1069" source="518" target="417"/>
+<edge id="1070" source="518" target="422"/>
+<edge id="1071" source="518" target="421"/>
+<edge id="1072" source="518" target="404"/>
+<edge id="1073" source="518" target="418"/>
+<edge id="1074" source="518" target="403"/>
+<edge id="1075" source="518" target="482"/>
+<edge id="1076" source="518" target="486"/>
+<edge id="1077" source="518" target="423"/>
+<edge id="1078" source="518" target="472"/>
+<edge id="1079" source="518" target="462"/>
+<edge id="1080" source="518" target="416"/>
+<edge id="1081" source="518" target="485"/>
+<edge id="1082" source="518" target="460"/>
+<edge id="1083" source="518" target="467"/>
+<edge id="1084" source="518" target="461"/>
+<edge id="1085" source="519" target="430"/>
+<edge id="1086" source="521" target="431"/>
+<edge id="1087" source="521" target="522"/>
+<edge id="1088" source="521" target="523"/>
+<edge id="1089" source="521" target="524"/>
+<edge id="1090" source="521" target="525"/>
+<edge id="1091" source="521" target="526"/>
+<edge id="1092" source="521" target="435"/>
+<edge id="1093" source="522" target="435"/>
+<edge id="1094" source="523" target="526"/>
+<edge id="1095" source="526" target="523"/>
+<edge id="1096" source="526" target="435"/>
+<edge id="1097" source="527" target="528"/>
+<edge id="1098" source="527" target="465"/>
+<edge id="1099" source="527" target="406"/>
+<edge id="1100" source="527" target="403"/>
+<edge id="1101" source="528" target="527"/>
+<edge id="1102" source="529" target="403"/>
+<edge id="1103" source="529" target="430"/>
+<edge id="1104" source="529" target="421"/>
+<edge id="1105" source="532" target="533"/>
+<edge id="1106" source="533" target="532"/>
+<edge id="1107" source="533" target="441"/>
+<edge id="1108" source="533" target="482"/>
+<edge id="1109" source="533" target="445"/>
+<edge id="1110" source="533" target="454"/>
+<edge id="1111" source="535" target="485"/>
+<edge id="1112" source="535" target="486"/>
+</edges>
+</graph>
+</gexf>

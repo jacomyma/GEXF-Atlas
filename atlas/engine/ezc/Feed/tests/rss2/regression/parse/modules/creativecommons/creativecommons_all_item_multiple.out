@@ -1,0 +1,36 @@
+<?php
+$feed = new ezcFeed( 'rss2' );
+$feed->title = 'Feed title';
+
+$link = $feed->add( 'link' );
+$link->href = 'Feed link';
+
+$feed->description = 'Feed description';
+
+$module = $feed->addModule( 'CreativeCommons' );
+$module->license = 'CreativeCommons license feed';
+
+$item = $feed->add( 'item' );
+$item->title = 'Item title 1';
+
+$link = $item->add( 'link' );
+$link->href = 'Item link 1';
+
+$item->description = 'Item description 1';
+
+$module = $item->addModule( 'CreativeCommons' );
+$module->license = 'CreativeCommons license item 1';
+
+$item = $feed->add( 'item' );
+$item->title = 'Item title 2';
+
+$link = $item->add( 'link' );
+$link->href = 'Item link 2';
+
+$item->description = 'Item description 2';
+
+$module = $item->addModule( 'CreativeCommons' );
+$module->license = 'CreativeCommons license item 2';
+
+return $feed;
+?>

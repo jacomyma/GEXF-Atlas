@@ -1,0 +1,95 @@
+SVN Revision: 10255
+
+
+Cache
+=====
+
+1.4.1 - Monday 11 May 2009
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Fixed issue #14684: Exception on invalid cache location now contains the
+  location it results from it.
+- Fixed issue #14685: Corrected tutorial regarding ezcCacheStackConfigurator.
+
+
+
+Configuration
+=============
+
+1.3.3 - Monday 11 May 2009
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Fixed bug #14701: Reader classes were cached too aggresively resulting in
+  calling ->init() for the 2nd time on a manager not re-initializing the
+  correct configuration object.
+
+
+
+ConsoleTools
+============
+
+1.5.1 - Monday 11 May 2009
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Fixed issue #14803: Exclusions and dependencies between options now also work
+  if no short name is provided for the options.
+
+
+
+Database
+========
+
+1.4.5 - Monday 11 May 2009
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Fixed issue #14855 (IN with subselects generates excessive braces).
+
+
+
+ImageConversion
+===============
+
+1.3.6 - Monday 11 May 2009
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Fixed issue #14810: Exceptions are now thrown correctly with corrupt JPEGs.
+
+
+
+Mail
+====
+
+1.6.2 - Monday 11 May 2009
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Fixed issue #14776: ezcMailStorageSet generates bad file names.
+
+
+
+PersistentObject
+================
+
+1.5.2 - Monday 11 May 2009
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Fixed issue #14736: ezcPersistentSession->createRelationFindQuery() now
+  supports relation names.
+- Fixed issue #14863: ezcPersistentSessionInstance::reset() is now static and
+  does work correctly.
+- Fixed issue #14690: Extracted duplicated code into methods and avoided to
+  instantiate a new generator object for each save/update (based on a patch by
+  Benjamin Eberlei).
+
+
+
+Workflow
+========
+
+1.3.3 - Monday 11 May 2009
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Fixed issue #14754 and #14760: ezcWorkflowDefinitionStorageXml does not
+  handle DOMText (whitespace) nodes properly.
+
+
+

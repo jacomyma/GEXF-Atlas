@@ -1,0 +1,4 @@
+mock:2:12: A 'raw' block cannot modify a variable.
+
+{raw $a = 2}
+           ^

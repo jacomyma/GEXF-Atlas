@@ -1,0 +1,7 @@
+In the admin, you can associate a text to an article (of course), to a map, to a resource... <b>A text can be set to as many slots as you want</b>. And it's the same for a file and so on...
+That's why this text will be used many times, to show you the places where you can put a text: adding infos to a document, making an article, explaining a map...
+<readmore/>
+
+<h3>About images</h3>
+<img src="../data/files/Logo.png"/>
+You can add images to an article. You have to put the URL of the image manually: get it from the "Documents" part of the admin!
