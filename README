@@ -1,0 +1,144 @@
+// Mathieu.Jacomy at gmail.com for more informations.
+// Produced for my own needs, to prototype the "e-Diasporas Atlas" for TIC-Migrations
+
+*** This document contains : I.Install and II.How does this CMS work
+
+-------------------------------------
+INSTALLING THE CMS
+-------------------------------------
+
+
+---
+WHAT DOES THE ATLAS CONTAIN ?
+---
+
+ADMIN : This folder contains the files for administrating the site
+
+DATA : This folder contains what you've uploaded and written, and the structure
+
+ENGINE : Contains the conf files, the engine, and the EZ Components library (full)
+
+JS : the javascripts
+
+PUBLIC : the public website
+
+
+---
+INSTALL
+---
+
+1. Upload on a server
+2. Edit the file "atlas/engine/__config.php" to put the right path (depends on where you uploaded)
+
+That's all !
+
+### Default login:password is :
+### anonymous:anonymous
+
+
+---
+EDITING PASSWORDS
+---
+
+Edit the file "atlas/engine/passwords". Each line has this syntax : "login:password".
+
+
+---
+SECURITY
+---
+
+For a better security you may like to:
+- Install and edit in your localhost
+- Do not upload the 'admin' folder to your server
+- Just commit the 'data' folder to apply changes
+
+
+---
+UPLOADING FILES
+---
+
+It might be necessary to configure your sever so that you can upload large files.
+Anyway, it's always possible to upload manually a document. The admin lets you make the bindings with any URL.
+Just upload to "data/files" !
+
+
+
+-------------------------------------
+INSIDE THE ADMIN : HOW DOES IT WORK ?
+-------------------------------------
+
+The philosophy in 4 steps :
+
+1) Create a section			Example : "The actors of Fairtrade on the web"
+2) Upload needed documents	Example : a graph, a PDF paper, a spreadsheet...
+3) Write needed texts		Example : What is this section about? Which methodology? Bibliography etc.
+4) Assemble the structure	Example : The graph makes a map, the 'about' text is its explanation, this image is the legend...
+
+---
+Documents
+---
+
+A document is a name and a link to a file. You can either :
+
+a. Upload your document and name it -> it goes in data/files
+b. Put a link to any other document
+
+These options make no difference for the system.
+
+NB : you can edit a document bu change its link (ie. file). It will be replaced everywhere in the structure.
+
+
+---
+Texts
+---
+
+The texts are just texts !
+Simplfied markups are allowed. See how to directly in the admin.
+
+
+---
+Structure
+---
+
+This is the big point.
+You have three different types of pages you can create :
+
+1. A map
+2. An article
+3. A resource
+
+A map is typically a graph (GEXF). The main feature is to show the map in Flash.
+But also if you want :
+- The map as a PDF
+- The legend (recommanded)
+- A text for more explanations
+- Option: show one map as the 'front' map. It will be shown as a highlight in the first page.
+
+An article is typically a text.
+But also if you want :
+- Associated documents
+- Option: show as the front article
+
+A resource is typically a file.
+But also if you want :
+- An explanation text
+- Show as front (option, several possible)
+
+NOTE THAT YOU CAN SET A FILE OR A TEXT TO AS MANY SLOTS AS YOU WANT
+For example, you may put the main PDF map as the PDF of the main map item, but also as a front resource.
+
+
+---
+KICK START
+---
+
+The system doesn't work if there is not at least a main map, with its GEXF, and a main article, with its text.
+
+That's why the CMS is provided with several files and text that you can use to understand how it works.
+Delete them when you're comfortable with the system!
+
+
+------------------------
+MORE, TROUBLESHOOTING...
+------------------------
+http://github.com/jacomyma/GEXF-Atlas
