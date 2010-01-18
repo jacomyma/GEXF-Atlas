@@ -247,6 +247,63 @@
 				}
 			}
 			include("pages/_setcontents.php");
+		} else if(isset($_GET['page']) && $_GET['page']=="managegraphs" && isset($_GET['section']) && $section = $data->getSectionById($_GET['section'])){
+			// SET CONTENTS
+			if(isset($_POST['action'])){
+				
+				// Create Database
+				if($_POST['action']=='createDatabase' && isset($_POST['document']) && $document = $section->getDocumentById($_POST['document'])){
+					$dbh = createDatabase($document->getId());
+					parseGEXF($document->getFile(), $dbh);
+				}
+				// Delete Database
+				if($_POST['action']=='deleteDatabase' && isset($_POST['delete']) && $_POST['delete']=="y" && isset($_POST['document']) && $document = $section->getDocumentById($_POST['document'])){
+					if(!deleteDatabase($document->getId())){
+						echo "Deletion failed";
+					}
+				}
+				// Reset Database (formerly 'update')
+				if($_POST['action']=='updateDatabase' && isset($_POST['document']) && $document = $section->getDocumentById($_POST['document'])){
+					$dbh = resetDatabase($document->getId());
+					parseGEXF($document->getFile(), $dbh);
+				}
+				// Change Attribute Viz Type
+				if($_POST['action']=='changeViz' && isset($_POST['document']) && $document = $section->getDocumentById($_POST['document'])){
+					if(isset($_POST['attribute']) && isset($_POST['viz'])){
+						try{
+							$dbh = new PDO("sqlite:../data/exploredbs/".$document->getId());
+							$g = new gRaph($dbh);
+							if($attribute = $g->getAttributeById($_POST['attribute'])){
+								$attribute->setViz($_POST['viz']);
+								if(isset($_POST['rewritedattributename'])){
+									$attribute->setRewrittenName($_POST['rewritedattributename']);
+								}
+							}
+						} catch(PDOException $e) {
+							echo $e->getMessage();
+						}
+					}
+				}
+				// Rewrite agregated values attributes
+				if($_POST['action']=='rewriteavas' && isset($_POST['document']) && $document = $section->getDocumentById($_POST['document'])){
+					try{
+						$dbh = new PDO("sqlite:../data/exploredbs/".$document->getId());
+						$g = new gRaph($dbh);
+						foreach($_POST as $index=>$rewrittenName){
+							if(preg_match('/rewrittenavaname_[0-9]*/i', $index)){
+								$pieces = explode("_", $index);
+								$md5 = $pieces[1];
+								$value = $_POST['value_'.$md5];
+								$color = $_POST['rewrittenavacolor_'.$md5];
+								$g->pushRewriting($value, $rewrittenName, $color);
+							}
+						}
+					} catch(PDOException $e) {
+						echo $e->getMessage();
+					}
+				}
+			}
+			include("pages/_managegraphs.php");
 		} else {
 			// SECTIONS
 			if(isset($_POST['action'])){

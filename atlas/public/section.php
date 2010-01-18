@@ -104,6 +104,39 @@
 					</div>
 				</div>
 				-->
+				
+<?php
+	$databases = getPublishedDatabases($section->getId());
+	if(sizeof($databases)>0){
+?>
+				<div class="box articles">
+					<h2>
+						<a href="#" id="toggle-articles">Explore</a>
+					</h2>
+					<div class="block" id="articles">
+<?php
+		$first = true;
+		foreach($databases as $db){
+			$document = $section->getDocumentById($db);
+			if($first){
+				echo '<div class="first article">';
+				$first = false;
+			} else {
+				echo '<div class="article">';
+			}
+?>
+							<h3><a href="explore.php?db=<?php echo htmlentities($db) ?>"><?php echo htmlentities($document->getName()); ?></a></h3>
+							<p/>
+						</div>
+<?php
+		}
+?>
+					</div>
+				</div>
+<?php
+	}
+?>
+				
 				<div class="box articles">
 					<h2>
 						<a href="#" id="toggle-articles">Resources</a>

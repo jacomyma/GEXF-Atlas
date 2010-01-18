@@ -1,7 +1,9 @@
 <?php
 
-// EZ COMPONENTS : INIT - /!\ Edit Path in this file to make it work !!!
+// EZ COMPONENTS : INIT - /!\ Edit Path in __config.php to make it work !!!
 include("_initEZC.php");
+
+include("graphdbviews.php");
 
 // Fucking Magic Quotes...
 if (get_magic_quotes_gpc()) {
@@ -808,7 +810,7 @@ class Ressource extends DomAccessor{
 
 function GexfExplorer($map, $width, $height){
 	global $section;
-	echo '<object width="'.$width.'" height="'.$height.'">';
+	echo '<object width="'.$width.'" height="'.$height.'" class="gexfexplorer">';
 	echo '<param name="movie" value="res/GexfExplorer1.0.swf?path='.htmlentities($section->getDocumentById($map->getDocument())->getFile()).'&curvedEdges=true&clickableNodes=true&labelsColor=0x454545&font=Verdana" />';
 	echo '<param name="allowFullScreen" value="true" />';
 	echo '<param name="allowScriptAccess" value="always" />';

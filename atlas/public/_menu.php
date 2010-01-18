@@ -46,6 +46,21 @@
 ?>
 						</ul>
 					</li>
+					<li>
+						<?php showMenuItem("Explore", "explore"); ?>
+						<ul>
+<?php
+	if($databases = getPublishedDatabases($section->getId())){
+		foreach($databases as $db){
+			$document = $section->getDocumentById($db);
+?>
+							<li><a href="explore.php?db=<?php echo  htmlentities($db);?>"><?php echo htmlentities($document->getName()); ?></a></li>
+<?php
+		}
+	}
+?>
+						</ul>
+					</li>
 					<li class="secondary">
 						<a href="index.php">Back to the Atlas</a>
 					</li>

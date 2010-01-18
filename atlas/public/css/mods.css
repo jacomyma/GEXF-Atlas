@@ -93,3 +93,6 @@ div.article.full h3, div.article.full h4, div.article.full h5, div.article.full 
 	
 	line-height:0px;
 }
+
+/* cursor (javascript) */
+.cursor {  cursor: hand}

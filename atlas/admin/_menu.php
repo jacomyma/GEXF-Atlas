@@ -12,9 +12,9 @@
 					<li>
 						<?php showMenuItem("Set Contents", "setcontents"); ?>
 					</li>
-					<!--<li>
+					<li>
 						<?php showMenuItem("Manage Browsable Graphs", "managegraphs"); ?>
-					</li>-->
+					</li>
 					<li class="secondary">
 						<a href="?page=logout"><?php echo $user; ?>: logout</a>
 					</li>
